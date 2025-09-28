@@ -85,3 +85,9 @@ Elérhetőség (Facebook, Instagram, Twitch etc.)
 | Galéria | K4 | Galéria | 1.0 | Képek és videók |
 | Blog/Hírek | K5 | Blog/Hírek | 1.0 | Cikkek, interjúk | 
 | Kapcsolat | K6 | Kapcsolat | A csapat elérhetőségei |
+
+# 6. Fizikai Környezet
+
+A teszt webes környezetben és minden böngészőben reszponzívnak készül el.
+Nincsenek megvásárolt komponenseink.
+
