@@ -49,33 +49,29 @@ Developer team: Juhász Balázs, Dongó Petra, Lukács Levente
 - Hírek, statisztikák frissítése
 - Galéria kezelése
 
-Menü-hierarchia:
-FŐOLDAL
+## Menü-hierarchia:
+- **FŐOLDAL**
 
 Rövid bemutatkozás
-
 Legfrissebb hírek / eredmények
 
-CSAPAT
+- **CSAPAT**
 
 Összes játékos profil
 
-MECCSEK
+- **MECCSEK**
 
 Közelgő események
-
 Korábbi eredmények
 
-GALÉRIA
+- **GALÉRIA**
 
 Képek és videók
 
-BLOG/HÍREK
+- **BLOG/HÍREK**
 
 Cikkek, interjúk
 
-KAPCSOLAT
+- **KAPCSOLAT**
 
-Elérhetőség, üzenetküldés
-
-ADMIN (rejtett, belépés után)
+Elérhetőség (Facebook, Instagram, Twitch etc.)
