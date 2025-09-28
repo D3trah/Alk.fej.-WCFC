@@ -84,7 +84,7 @@ Elérhetőség (Facebook, Instagram, Twitch etc.)
 | Meccsek | K3 | Meccsek | 1.0 | Közelgő és korábbi eredmények megtekintése |
 | Galéria | K4 | Galéria | 1.0 | Képek és videók |
 | Blog/Hírek | K5 | Blog/Hírek | 1.0 | Cikkek, interjúk | 
-| Kapcsolat | K6 | Kapcsolat | 1.0 | A csapat elérhetőségei |
+| Kapcsolat | K6 | Kapcsolat | 1.0 | A csapat elérhetőségei | 
 
 # 6. Fizikai Környezet
 
