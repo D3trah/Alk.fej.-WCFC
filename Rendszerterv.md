@@ -21,15 +21,68 @@ Developer team: Juhász Balázs, Dongó Petra, Lukács Levente
 # 3. Követelmények
 ## Funkcionális követelmények:
 
-Játékosprofilok: A látogatók megtekinthetik az egyes csapattagokat, posztjukat, statisztikáikat.
-Meccsnaptár: Közelgő mérkőzések listázása, helyszínnel, időponttal.
-Eredmények és statisztikák: Korábbi meccsek eredményei, góllövők.
-Galéria: Fotók és videók megjelenítése.
-Hírek/blog: Hírek közzététele a csapattal kapcsolatban.
-Szurkolói interakciók: Instagram vagy Facebook üzeneteken keresztül.
-Admin felület: Játékosok, események és bejegyzések kezelése.
+- Játékosprofilok: A látogatók megtekinthetik az egyes csapattagokat, posztjukat, statisztikáikat.
+- Meccsnaptár: Közelgő mérkőzések listázása, helyszínnel, időponttal.
+- Eredmények és statisztikák: Korábbi meccsek eredményei, góllövők.
+- Galéria: Fotók és videók megjelenítése.
+- Hírek/blog: Hírek közzététele a csapattal kapcsolatban.
+- Szurkolói interakciók: Instagram vagy Facebook üzeneteken keresztül.
+- Admin felület: Játékosok, események és bejegyzések kezelése.
 
 # 5. Funkcionális terv
-Rendszerszereplők:
+## Rendszerszereplők:
 **Látogató (szurkoló)**
 **Admin**
+
+## Rendszerhasználati esetek:
+**Látogató**:
+
+Böngészi a játékosprofilokat
+
+Megnézi az eseményeket, eredményeket
+
+Szavaz a meccs emberére
+
+Megtekinti a galériát, olvassa a híreket
+
+Admin:
+
+Játékosok adatainak szerkesztése
+
+Meccsek, események rögzítése
+
+Hírek, statisztikák frissítése
+
+Galéria kezelése
+
+Menü-hierarchia:
+
+FŐOLDAL
+
+Rövid bemutatkozás
+
+Legfrissebb hírek / eredmények
+
+CSAPAT
+
+Összes játékos profil
+
+MECCSEK
+
+Közelgő események
+
+Korábbi eredmények
+
+GALÉRIA
+
+Képek és videók
+
+BLOG/HÍREK
+
+Cikkek, interjúk
+
+KAPCSOLAT
+
+Elérhetőség, üzenetküldés
+
+ADMIN (rejtett, belépés után)
