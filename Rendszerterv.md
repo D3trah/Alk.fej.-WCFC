@@ -75,3 +75,13 @@ Cikkek, interjúk
 - **KAPCSOLAT**
 
 Elérhetőség (Facebook, Instagram, Twitch etc.)
+
+## Menükhöz tartozó specifikációk:
+| Modul | ID | Név | v. | Kifejtés |
+|---|---|---|---|---|
+| Főmenü | K1 | Főmenü | 1.0 | Itt található a bemutatkozás és a mottó |
+| Csapat | K2 | Csapat | 1.0 | A csapat tagok bemutatása |
+| Meccsek | K3 | Meccsek | 1.0 | Közelgő és korábbi eredmények megtekintése |
+| Galéria | K4 | Galéria | 1.0 | Képek és videók |
+| Blog/Hírek | K5 | Blog/Hírek | 1.0 | Cikkek, interjúk | 
+| Kapcsolat | K6 | Kapcsolat | A csapat elérhetőségei |
