@@ -17,3 +17,20 @@ Developer team: Juhász Balázs, Dongó Petra, Lukács Levente
 | Meccsnaptár és eredmények | Eseménykezelés, admin funkciók                  |
 | Hírek és blog             | Tartalomkezelő funkciók                         |
 | Design                    | CSS, reszponzív dizájn                          |
+
+# 3. Követelmények
+Funkcionális követelmények:
+
+Játékosprofilok: A látogatók megtekinthetik az egyes csapattagokat, posztjukat, statisztikáikat.
+
+Meccsnaptár: Közelgő mérkőzések listázása, helyszínnel, időponttal.
+
+Eredmények és statisztikák: Korábbi meccsek eredményei, góllövők.
+
+Galéria: Fotók és videók megjelenítése.
+
+Hírek/blog: Hírek közzététele a csapattal kapcsolatban.
+
+Szurkolói interakciók: Instagram vagy Facebook üzeneteken keresztül.
+
+Admin felület: Játékosok, események és bejegyzések kezelése.
