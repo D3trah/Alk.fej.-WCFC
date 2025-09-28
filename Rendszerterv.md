@@ -106,7 +106,7 @@ A rendszer háromrétegű architektúrát követ:
 - **Adatrétég:** 
     - MYSQL adatbázis, ahol az adatok tárolódnak.
 
-# 10. Használt technológiák
+# 9. Használt technológiák
 
 - Discord - verbális kommunikáció
 - Git, GitHub - Alkalmazás verzióinak követése
