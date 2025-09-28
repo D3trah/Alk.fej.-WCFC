@@ -8,7 +8,7 @@ Az elmúlt időszakban számos rajongói oldal jelent meg, amelyek a WCFC-hez ha
 # 3. Vágyálom rendszer
 Az ideális rendszerben a felhasználók gyorsan és egyszerűen megtekinthetik a csapatot, majd azonnal belemerülhetnek az alkalmazás élményébe. A kezelőfelület intenzív, azonban nem zavaróan zsúfolt, így a szurkolók könnyedén megtalálják a számukra lényeges funkciókat.
 
-## Véletlenszerű skin kiosztás: 
+## Véletlenszerű tartalom kiosztás: 
 Amikor egy szurkoló újonnan csatlakozik, automatikusan kap egy „véletlenszerű tartalmat” – például egy idézetet egy játékostól, vagy egy mérkőzéshez kötődő érdekességet. Ez egy kellemes meglepetés a felhasználó számára, és azonnal bevonja a közösségbe.
 
 # 4. Funkcionális követelmény
