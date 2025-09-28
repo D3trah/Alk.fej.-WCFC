@@ -31,6 +31,5 @@ Admin felület: Játékosok, események és bejegyzések kezelése.
 
 # 5. Funkcionális terv
 Rendszerszereplők:
-
-Látogató (szurkoló)
-Admin
+**Látogató (szurkoló)**
+**Admin**
