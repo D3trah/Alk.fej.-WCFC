@@ -31,32 +31,25 @@ Developer team: Juhász Balázs, Dongó Petra, Lukács Levente
 
 # 5. Funkcionális terv
 ## Rendszerszereplők:
-**Látogató (szurkoló)**
-**Admin**
+- **Látogató (szurkoló)**
+- **Admin**
 
 ## Rendszerhasználati esetek:
 **Látogató**:
 
-Böngészi a játékosprofilokat
+- Böngészi a játékosprofilokat
+- Megnézi az eseményeket, eredményeket
+- Szavaz a meccs emberére
+- Megtekinti a galériát, olvassa a híreket
 
-Megnézi az eseményeket, eredményeket
+**Admin**:
 
-Szavaz a meccs emberére
-
-Megtekinti a galériát, olvassa a híreket
-
-Admin:
-
-Játékosok adatainak szerkesztése
-
-Meccsek, események rögzítése
-
-Hírek, statisztikák frissítése
-
-Galéria kezelése
+- Játékosok adatainak szerkesztése
+- Meccsek, események rögzítése
+- Hírek, statisztikák frissítése
+- Galéria kezelése
 
 Menü-hierarchia:
-
 FŐOLDAL
 
 Rövid bemutatkozás
