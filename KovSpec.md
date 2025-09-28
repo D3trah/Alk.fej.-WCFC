@@ -1,5 +1,5 @@
 # 1. Áttekintés
-A kis projekt ötlete egy Visual Studio Code alapú webalkalmazás tervezése és fejlesztése, amely a WCFC (WaterCloset Football Club) futballcsapattal foglalkozik. Az alkalmazás lehetővé teszi a szurkolók számára, hogy hozzáférjenek a legfrissebb hírekhez, játékos-információkhoz, valamint részt vehessenek szurkolói interakciókban, például szavazásokon vagy hozzászólásokban. A játékosok és mérkőzések értékelés alapján lesznek rendszerezve, a szurkolók csak bizonyos kategóriákon belül tudnak szavazatokat leadni vagy hozzászólni.
+A kis projekt ötlete egy Visual Studio Code alapú webalkalmazás tervezése és fejlesztése, amely a WCFC (Water Closet Football Club) futballcsapattal foglalkozik. Az alkalmazás lehetővé teszi a szurkolók számára, hogy hozzáférjenek a legfrissebb hírekhez, játékos-információkhoz, valamint részt vehessenek szurkolói interakciókban, például szavazásokon vagy hozzászólásokban. A játékosok és mérkőzések értékelés alapján lesznek rendszerezve, a szurkolók csak bizonyos kategóriákon belül tudnak szavazatokat leadni vagy hozzászólni.
 Az egész webalkalmazás VSCode segítségével lesz létrehozva.
 
 # 2. Jelenlegi helyzet
