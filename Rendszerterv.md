@@ -37,9 +37,8 @@ Developer team: Juhász Balázs, Dongó Petra, Lukács Levente
 ## Rendszerhasználati esetek:
 **Látogató**:
 
-- Böngészi a játékosprofilokat
+- Böngészi a játékosprofilokat, regisztráció esetén több információt kap
 - Megnézi az eseményeket, eredményeket
-- Szavaz a meccs emberére
 - Megtekinti a galériát, olvassa a híreket
 
 **Admin**:
@@ -53,7 +52,8 @@ Developer team: Juhász Balázs, Dongó Petra, Lukács Levente
 - **FŐOLDAL**
 
 Rövid bemutatkozás
-Legfrissebb hírek / eredmények
+Mottó
+WCFC logó
 
 - **CSAPAT**
 
