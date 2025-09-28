@@ -91,3 +91,23 @@ Elérhetőség (Facebook, Instagram, Twitch etc.)
 A teszt webes környezetben és minden böngészőben reszponzívnak készül el.
 Nincsenek megvásárolt komponenseink.
 
+# 7. Fejlesztői eszközök:
+
+- Visual Studio Code
+- XAMPP
+
+# 8. Architekturális terv
+A rendszer háromrétegű architektúrát követ:
+
+- **Kliensréteg (Frontend):**
+    - React alapú, a felhasználói interakciókért felelős.
+- **Üzleti logika réteg (Backend):**
+    - Visual Studio Code segítségével készül, és kezeli a logikai műveleteket.
+- **Adatrétég:** 
+    - MYSQL adatbázis, ahol az adatok tárolódnak.
+
+# 10. Használt technológiák
+
+- Discord - verbális kommunikáció
+- Git, GitHub - Alkalmazás verzióinak követése
+- Kódszerkesztők (Visual Studio Code)
