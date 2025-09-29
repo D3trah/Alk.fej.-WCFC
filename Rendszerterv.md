@@ -102,7 +102,7 @@ A rendszer háromrétegű architektúrát követ:
 - **Kliensréteg (Frontend):**
     - React alapú, a felhasználói interakciókért felelős.
 - **Üzleti logika réteg (Backend):**
-    - Visual Studio Code segítségével készül, és kezeli a logikai műveleteket.
+    - Visual Studio Code (Node js) segítségével készül, és kezeli a logikai műveleteket.
 - **Adatrétég:** 
     - MYSQL adatbázis, ahol az adatok tárolódnak.
 
