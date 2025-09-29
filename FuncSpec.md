@@ -34,23 +34,23 @@ Reszponzivitás: A webalkalmazás minden eszközön (desktop, tablet, mobil) jó
 
 # 4.1. Regisztráció/Bejelentkezés
 
--Felhasználó regisztráció gombra kattint átirányítjuk egy regisztrációs ablakba.
--Regisztrálni adatai kitöltésével lehetséges az alábbi sorrendben; felhasználónév, email, jelszó
--A regisztráció után a bejelentkezés fülre kattintva átirányításra kerül a bejelentkezés ablakba.
--Bejelentkezéshez a regisztrációkor megadott felhasználónév, és jelszó páros megadása szükséges.
--Bejelentkezés után újra a főodalon találja magát a felhasználó.
--Sikertelen bejelentkezés esetén a rendszer hibaüzenetet jelenít meg.
+- Felhasználó regisztráció gombra kattint átirányítjuk egy regisztrációs ablakba.
+- Regisztrálni adatai kitöltésével lehetséges az alábbi sorrendben; felhasználónév, email, jelszó
+- A regisztráció után a bejelentkezés fülre kattintva átirányításra kerül a bejelentkezés ablakba.
+- Bejelentkezéshez a regisztrációkor megadott felhasználónév, és jelszó páros megadása szükséges.
+- Bejelentkezés után újra a főodalon találja magát a felhasználó.
+- Sikertelen bejelentkezés esetén a rendszer hibaüzenetet jelenít meg.
 
 # 4.2 Oldalon található gombok
 
--A főoldalon Játékosprofilok, Meccsnaptár, Eredmények és statisztikák, Galéria, Hírek/blog, Szurkolói interakciók és Admin felület gombok találhatók.
--A Játékosprofilok gombbal a látogatók megtekinthetik az egyes csapattagokat, posztjukat, statisztikáikat.
--A Meccsnaptár gombbal a látogatók megtekinthetik a közelgő mérkőzések listázása, helyszínnel, időponttal.
--Az Eredmények és statisztikák gombbal a látogatók megtekinthetik a korábbi meccsek eredményei, góllövők.
--A Galéria gombbal a látogatók megtekinthetik a fotókat és videókat.
--A Hírek/blog gombbal a látogatók megtekinthetik a csapattal kapcsolatban közzétett híreket.
--A Szurkolói interakciók gomb a csapat Instagram vagy Facebook oldalára irányít.
--Az Admin felület gomb a játékosok, események és bejegyzések kezelését teszik lehetővé az admin számára.
+- A főoldalon Játékosprofilok, Meccsnaptár, Eredmények és statisztikák, Galéria, Hírek/blog, Szurkolói interakciók és Admin felület gombok találhatók.
+- A Játékosprofilok gombbal a látogatók megtekinthetik az egyes csapattagokat, posztjukat, statisztikáikat.
+- A Meccsnaptár gombbal a látogatók megtekinthetik a közelgő mérkőzések listázása, helyszínnel, időponttal.
+- Az Eredmények és statisztikák gombbal a látogatók megtekinthetik a korábbi meccsek eredményei, góllövők.
+- A Galéria gombbal a látogatók megtekinthetik a fotókat és videókat.
+- A Hírek/blog gombbal a látogatók megtekinthetik a csapattal kapcsolatban közzétett híreket.
+- A Szurkolói interakciók gomb a csapat Instagram vagy Facebook oldalára irányít.
+- Az Admin felület gomb a játékosok, események és bejegyzések kezelését teszik lehetővé az admin számára.
 
 ## 5. Adatmodell
 
