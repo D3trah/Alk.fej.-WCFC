@@ -1,23 +1,30 @@
 # 1. Áttekintés
-A kis projekt ötlete egy Visual Studio Code alapú webalkalmazás tervezése és fejlesztése, amely a WCFC (Water Closet Football Club) futballcsapattal foglalkozik. Az alkalmazás lehetővé teszi a szurkolók számára, hogy hozzáférjenek a legfrissebb hírekhez, játékos-információkhoz, valamint részt vehessenek szurkolói interakciókban, például szavazásokon vagy hozzászólásokban. A játékosok és mérkőzések értékelés alapján lesznek rendszerezve, a szurkolók csak bizonyos kategóriákon belül tudnak szavazatokat leadni vagy hozzászólni.
-Az egész webalkalmazás VSCode segítségével lesz létrehozva.
+A kis projekt ötlete egy Next.js alapú webalkalmazás tervezése és fejlesztése, amely a WCFC (Water Closet Football Club) futballcsapattal foglalkozik. Az alkalmazás lehetővé teszi a szurkolók számára, hogy hozzáférjenek a legfrissebb hírekhez, játékos-információkhoz, valamint részt vehessenek szurkolói interakciókban, például szavazásokon vagy hozzászólásokban. A játékosok és mérkőzések értékelés alapján lesznek rendszerezve, a szurkolók csak bizonyos kategóriákon belül tudnak szavazatokat leadni vagy hozzászólni.
+Az egész webalkalmazás Next.js és MYSQL segítségével lesz létrehozva.
 
 # 2. Jelenlegi helyzet
-Az elmúlt időszakban számos rajongói oldal jelent meg, amelyek a WCFC-hez hasonló tartalmakat kínálnak. Ezek az oldalak azonban gyakran pontatlan, nem megbízható információkat osztanak meg. Emiatt kiemelten fontos számunkra, hogy olyan webalkalmazást hozzunk létre, amelyben a szurkolók teljes mértékben megbízhatnak. Ez azt jelenti, hogy minden lépésben az átláthatóság, a hitelesség és a közösségépítés az elsődleges szempont lesz.
+Az elmúlt időszakban feltörekvő focicsapat, a WCFC-nek nincsen semmien oldala amin keresztül a rajongók tudják követni a csapatot. Ez az oldal azért készül,hogy a meccs eredményeket,közelgő mérkőzéseket,merch és jegyvásárlásra való lehetőséget kináljon és az egész csapatot megtudják tekinteni a szurkolók. Emiatt kiemelten fontos számunkra, hogy olyan webalkalmazást hozzunk létre, amelyben a szurkolók teljes mértékben megbízhatnak. Ez azt jelenti, hogy minden lépésben az átláthatóság, a hitelesség és a közösségépítés az elsődleges szempont lesz.
 
 # 3. Vágyálom rendszer
-Az ideális rendszerben a felhasználók gyorsan és egyszerűen megtekinthetik a csapatot, majd azonnal belemerülhetnek az alkalmazás élményébe. A kezelőfelület intenzív, azonban nem zavaróan zsúfolt, így a szurkolók könnyedén megtalálják a számukra lényeges funkciókat.
+Az ideális rendszerben a felhasználók gyorsan és egyszerűen megtekinthetik a csapatot és be is regisztrálhatnak,hogy több funkcióhoz juthassanak hozzá, majd azonnal belemerülhetnek az alkalmazás élményébe. A kezelőfelület intenzív, azonban nem zavaróan zsúfolt, így a szurkolók könnyedén megtalálják a számukra lényeges funkciókat.
 
-## Véletlenszerű tartalom kiosztás: 
-Amikor egy szurkoló újonnan csatlakozik, automatikusan kap egy „véletlenszerű tartalmat” – például egy idézetet egy játékostól, vagy egy mérkőzéshez kötődő érdekességet. Ez egy kellemes meglepetés a felhasználó számára, és azonnal bevonja a közösségbe.
+## Előnyök: 
+Amikor egy szurkoló újonnan csatlakozik, egyből hozzáfér minden olyan funkcióhoz,amihez fiók nélkül nem tudna,és bedobja őt az oldal főoldalára,ahol a csapat logója,és maga a csapat fogja várni.
 
 # 4. Funkcionális követelmény
 - Felhasználó kezelés
-    - Véletlenszerű tartalom kiosztás,ha a felhasználó rákattint az egyik játékosra.    
+    - Regisztrálás és bejelentkezés.
+- Információk
+    - Meccs eredmények
+    - Jövendőbeli meccsek
+- Extra lehetőségek
+    - Merch és jegyvásárlás    
 
 # 5. Fogalomtár
 ## WCFC
 - Futballcsapat, amelyet a szurkolók és a közösség összefogása jellemez. A klub rendszeresen részt vesz bajnokságokon és barátságos mérkőzéseken.
+## Merch
+- A „merch” a merchandise rövidítése, ami olyan termékeket jelent (pl. póló, sapka, bögre), amelyeket egy márka, zenekar, tartalomgyártó vagy más szervezet logójával, témájával ellátva értékesítenek a rajongóknak, hogy kifejezzék támogatásukat, és növeljék a márka ismertségét és közösségét. 
 ## Szurkolói tartalom:
 - Minden olyan digitális anyag (hír, kép, videó, szavazás), amely a csapat életéhez kapcsolódik, és a közösség számára elérhetővé tesszük.
 ## Szurkolói értékelés:
@@ -32,7 +39,11 @@ Amikor egy szurkoló újonnan csatlakozik, automatikusan kap egy „véletlensze
 ## Rendszerszabványok, ajánlások
 - Discord
 - Github
-- Visual studio code
+- Trello
+- Next.js
+- Visual Studio Code
+- XAMPP
+
 
 # 7. Riportok
 
