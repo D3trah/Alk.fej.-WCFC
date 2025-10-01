@@ -2,7 +2,7 @@
 A rendszer célja, hogy létrehozzon egy informatív, vizuálisan megnyerő és könnyen kezelhető weboldalt a WCFC amatőr focicsapat számára. Az oldal segíti a csapat online jelenlétét, lehetőséget biztosít hírek, események, eredmények, és játékosprofilok közzétételére, valamint erősíti a kapcsolatot a szurkolókkal.
 
 # Álom rendszer
-Az ideális rendszerben a látogatók gyorsan és intuitívan tájékozódhatnak a csapatról. Az oldal mobil- és reszponzív dizájnnal rendelkezik, a játékosok és meccsek bemutatása látványos, mégis könnyen áttekinthető. A szurkolók böngészhetnek galériát, és akár kapcsolatba is léphetnek a csapattal.
+Az ideális rendszerben a látogatók gyorsan és intuitívan tájékozódhatnak a csapatról. Az oldal mobil- és reszponzív dizájnnal rendelkezik, a játékosok és meccsek bemutatása látványos, mégis könnyen áttekinthető. A szurkolók böngészhetnek galériát, merchet és jegyet vehetnek, emellett akár kapcsolatba is léphetnek a csapattal.
 
 # 2. Projectterv
 Developer team: Juhász Balázs, Dongó Petra, Lukács Levente
@@ -40,6 +40,7 @@ Developer team: Juhász Balázs, Dongó Petra, Lukács Levente
 - Böngészi a játékosprofilokat, regisztráció esetén több információt kap
 - Megnézi az eseményeket, eredményeket
 - Megtekinti a galériát, olvassa a híreket
+- Merch és jegyvásárlási lehetőségek 
 
 **Admin**:
 
@@ -95,6 +96,7 @@ Nincsenek megvásárolt komponenseink.
 
 - Visual Studio Code
 - XAMPP
+- Next.js
 
 # 8. Architekturális terv
 A rendszer háromrétegű architektúrát követ:
@@ -102,7 +104,7 @@ A rendszer háromrétegű architektúrát követ:
 - **Kliensréteg (Frontend):**
     - React alapú, a felhasználói interakciókért felelős.
 - **Üzleti logika réteg (Backend):**
-    - Visual Studio Code (Node js) segítségével készül, és kezeli a logikai műveleteket.
+    - Node.js segítségével készül, és kezeli a logikai műveleteket.
 - **Adatrétég:** 
     - MYSQL adatbázis, ahol az adatok tárolódnak.
 
@@ -111,3 +113,4 @@ A rendszer háromrétegű architektúrát követ:
 - Discord - verbális kommunikáció
 - Git, GitHub - Alkalmazás verzióinak követése
 - Kódszerkesztők (Visual Studio Code)
+- Trello - projekt szervezése, rendezése
