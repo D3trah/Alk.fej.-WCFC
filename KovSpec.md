@@ -18,6 +18,8 @@ Amikor egy szurkoló újonnan csatlakozik, egyből hozzáfér minden olyan funkc
     - Meccs eredmények
     - Jövendőbeli meccsek
 - Extra lehetőségek
+    - Dark mode és Light mode változtatása
+    - Nyelv választás (Magyar/Angol)
     - Merch és jegyvásárlás    
 
 # 5. Fogalomtár
