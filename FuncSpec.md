@@ -1,8 +1,7 @@
 ## 1. Bevezetés
-
 # 1.1. Cél
 
-A dokumentum célja, hogy ismertesse a WCFC oldal készítéséhez szükséges funkcionális követelményeket. 
+A dokumentum célja, hogy ismertesse a WCFC oldal készítéséhez szükséges funkcionális követelményeket.
 A specifikáció alapján a fejlesztőcsapat egyértelműen értelmezheti és megvalósíthatja a rendszer funkcióit.
 
 # 1.2. Hatály
@@ -11,64 +10,90 @@ A dokumentum a WCFC oldal fejlesztési projektjére vonatkozik.
 
 ## 2. Rendszerleírás
 
-# 2.1. Rendszer célja
+A WCFC (Water Closet Football Club) egy feltörekvő futballcsapat, amelynek jelenleg nincs hivatalos online felülete, ahol a rajongók követhetik a csapat életét.
+Ez a weboldal ezt a hiányt hivatott pótolni — célja, hogy a szurkolók hozzáférjenek a legfrissebb hírekhez, játékosadatokhoz, meccseredményekhez, és részt vehessenek közösségi interakciókban.
+Fontos szempont az átláthatóság, a hitelesség és a közösségépítés.
 
-Lehetőséget nyújt a felhasználóknak, hogy betekintést nyerhessenek a WCFC csapatba.
+## 3. Rendszerleírás
+# 3.1. Rendszer célja
 
-# 2.2. Felhasználói esetek
+A rendszer lehetőséget nyújt a felhasználóknak, hogy betekintést nyerhessenek a WCFC csapatba.
 
-Felhasználó regisztrálása/bejelentkezése.
+## 3.2. Vágyálom rendszer
 
-## 3. Követelmények
+Az ideális rendszerben a felhasználók egyszerűen regisztrálhatnak, bejelentkezhetnek, és azonnal hozzáférhetnek minden fontos tartalomhoz: meccsek, eredmények, hírek és galéria.
+A felület letisztult, reszponzív, és modern megjelenésű (Next.js alapokra építve).
+A cél, hogy a szurkolók egy élvezetes, biztonságos, interaktív közösségi élményt kapjanak.
 
-# 3.1. Funkcionális követelmények
+## 4. Felhasználói esetek
 
-Regisztráció/Bejelentkezés: A felhasználók létrehozhatnak egy fiókot, és bejelentkezhetnek a rendszerbe.
+Felhasználó regisztrálása és bejelentkezése
 
-# 3.2. Nem-funkcionális követelmények
+Meccsadatok, játékosprofilok és hírek megtekintése
+
+Szurkolói interakciók (kommentek, szavazások, közösségi oldalak)
+
+## 5. Követelmények
+# 5.1. Funkcionális követelmények
+
+- Regisztráció / Bejelentkezés: A felhasználók létrehozhatnak fiókot, és beléphetnek a rendszerbe.
+- Tartalom megtekintése: Meccsek, eredmények, játékosok, galéria, hírek.
+- Admin felület: Az adminisztrátor kezelheti a játékosokat, eseményeket, bejegyzéseket.
+
+Kiegészítő funkciók:
+- Dark / Light mód
+- Nyelvválasztás (Magyar / Angol)
+- Merch és jegyvásárlás lehetősége
+
+# 5.2. Nem-funkcionális követelmények
 
 Biztonság: Az adatok biztonságosan vannak tárolva.
+
 Reszponzivitás: A webalkalmazás minden eszközön (desktop, tablet, mobil) jól használható.
 
-## 4. Rendszer működése
+Megbízhatóság: A rendszer folyamatosan elérhető és karbantartható.
 
-# 4.1. Regisztráció/Bejelentkezés
+## 6. Rendszer működése
+# 6.1. Regisztráció / Bejelentkezés
 
-- Felhasználó regisztráció gombra kattint átirányítjuk egy regisztrációs ablakba.
-- Regisztrálni adatai kitöltésével lehetséges az alábbi sorrendben; felhasználónév, email, jelszó
-- A regisztráció után a bejelentkezés fülre kattintva átirányításra kerül a bejelentkezés ablakba.
-- Bejelentkezéshez a regisztrációkor megadott felhasználónév, és jelszó páros megadása szükséges.
-- Bejelentkezés után újra a főodalon találja magát a felhasználó.
-- Sikertelen bejelentkezés esetén a rendszer hibaüzenetet jelenít meg.
+A felhasználó a „Regisztráció” gombra kattintva megadja a felhasználónevét, email címét, jelszavát.
 
-# 4.2 Oldalon található gombok
+Sikeres regisztráció után a „Bejelentkezés” fülön keresztül léphet be.
 
-- A főoldalon Játékosprofilok, Meccsnaptár, Eredmények és statisztikák, Galéria, Hírek/blog, Szurkolói interakciók és Admin felület gombok találhatók.
-- A Játékosprofilok gombbal a látogatók megtekinthetik az egyes csapattagokat, posztjukat, statisztikáikat.
-- A Meccsnaptár gombbal a látogatók megtekinthetik a közelgő mérkőzések listázása, helyszínnel, időponttal.
-- Az Eredmények és statisztikák gombbal a látogatók megtekinthetik a korábbi meccsek eredményei, góllövők.
-- A Galéria gombbal a látogatók megtekinthetik a fotókat és videókat.
-- A Hírek/blog gombbal a látogatók megtekinthetik a csapattal kapcsolatban közzétett híreket.
-- A Szurkolói interakciók gomb a csapat Instagram vagy Facebook oldalára irányít.
-- Az Admin felület gomb a játékosok, események és bejegyzések kezelését teszik lehetővé az admin számára.
+Sikertelen bejelentkezés esetén a rendszer hibaüzenetet jelenít meg.
 
-## 5. Adatmodell
+Bejelentkezés után a főoldalra kerül vissza a felhasználó.
 
-# 5.1. Felhasználók
+# 6.2. Oldalon található gombok
 
-userId: INT (Egyedi azonosító)
-username: VARCHAR(255) (Felhasználónév)
-passwd: VARCHAR(255) (Jelszó)
-email: VARCHAR(255) (E-mail cím)
+- Játékosprofilok: Csapattagok adatainak megtekintése.
 
-## 6. Megvalósítás
+- Meccsnaptár: Közelgő mérkőzések listája (helyszín, időpont).
 
-A weboldal HTML és CSS használtaával fog létrejönni.
+- Eredmények és statisztikák: Korábbi meccsek eredményei, góllövők.
 
-# 7. Fogalomtár
+- Galéria: Fotók és videók a csapatról.
 
-## WCFC: 
-- Water Closet Football Club.
+- Hírek / Blog: A csapattal kapcsolatos friss hírek.
 
-## "Ki korán kel 5uper_lel":
-- A népszerű mondás amit meccs közben szoktak a szurkolók üvölteni. A WCFC tagjainak annyira megtetszett, hogy szlogenjükké vált.
+- Szurkolói interakciók: Linkek a csapat közösségi oldalaira.
+
+- Admin felület: Kezelés játékosok, események és bejegyzések felett.
+
+## 7. Adatmodell
+# 7.1. Felhasználók
+| Mező | Típus | Leírás |
+|---|---|---|
+| userId | INT | Egyedi azonosító |
+| username | VARCHAR(255) | Felhasználónév |
+| passwd | VARCHAR(255) | Jelszó |
+| email | VARCHAR(255) | E-mail cím |
+## 8. Rendszerre szabványok, ajánlások
+
+# 8.1. Rendszerszabványok, ajánlások
+- Discord
+- Github
+- Trello
+- Next.js
+- Visual Studio Code
+- XAMPP
