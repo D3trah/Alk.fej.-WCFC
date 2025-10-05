@@ -41,6 +41,8 @@ Developer team: Juhász Balázs, Dongó Petra, Lukács Levente
 - Megnézi az eseményeket, eredményeket
 - Megtekinti a galériát, olvassa a híreket
 - Merch és jegyvásárlási lehetőségek 
+- Dark mode és Light mode változtatása
+- Nyelv választás (Magyar/Angol)
 
 **Admin**:
 
@@ -104,7 +106,7 @@ A rendszer háromrétegű architektúrát követ:
 - **Kliensréteg (Frontend):**
     - React alapú, a felhasználói interakciókért felelős.
 - **Üzleti logika réteg (Backend):**
-    - Node.js segítségével készül, és kezeli a logikai műveleteket.
+    - Next.js segítségével készül, és kezeli a logikai műveleteket.
 - **Adatrétég:** 
     - MYSQL adatbázis, ahol az adatok tárolódnak.
 
