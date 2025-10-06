@@ -1,4 +1,4 @@
-## 1. Bevezetés
+## 1. Bevezetés 
 # 1.1. Cél
 
 A dokumentum célja, hogy ismertesse a WCFC oldal készítéséhez szükséges funkcionális követelményeket.

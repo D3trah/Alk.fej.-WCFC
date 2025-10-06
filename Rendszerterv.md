@@ -1,4 +1,4 @@
-# 1. A rendszer célja
+# 1. A rendszer célja 
 A rendszer célja, hogy létrehozzon egy informatív, vizuálisan megnyerő és könnyen kezelhető weboldalt a WCFC amatőr focicsapat számára. Az oldal segíti a csapat online jelenlétét, lehetőséget biztosít hírek, események, eredmények, és játékosprofilok közzétételére, valamint erősíti a kapcsolatot a szurkolókkal.
 
 # Álom rendszer
