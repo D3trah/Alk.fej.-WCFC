@@ -37,6 +37,9 @@ Amikor egy szurkoló újonnan csatlakozik, egyből hozzáfér minden olyan funkc
 ## Szurkolói értékelés:
 - Az egyes tartalmak értékét a szurkolói aktivitás (pl. lájkok, hozzászólások, megosztások) alapján mérjük. Egyes bejegyzések nagyobb figyelmet kapnak, így kiemelt helyre kerülnek.
 
+## Szponzor
+- A szponzor olyan természetes személy vagy szervezet, amely anyagi vagy egyéb támogatást nyújt egy tevékenységhez, eseményhez, személyhez vagy szervezethez, általában a reklám, a márkaismertség növelése, üzleti kapcsolatok építése vagy a közösségi célok támogatása érdekében. 
+
 # 6. Rendszerre vonatkozó törvények, szabványok, ajánlások
 ## Törvények
 - AZ EURÓPAI PARLAMENT ÉS A TANÁCS (EU) 2016/679 RENDELETE
