@@ -44,14 +44,16 @@ Kiegészítő funkciók:
 - Dark / Light mód
 - Nyelvválasztás (Magyar / Angol)
 - Merch és jegyvásárlás lehetősége
+- Jövőbeli meccsek megtekintése
+- Információ játékosokról
+- Szponzorok
+- A csapat közösségi médiája
 
 # 5.2. Nem-funkcionális követelmények
 
-Biztonság: Az adatok biztonságosan vannak tárolva.
-
-Reszponzivitás: A webalkalmazás minden eszközön (desktop, tablet, mobil) jól használható.
-
-Megbízhatóság: A rendszer folyamatosan elérhető és karbantartható.
+- Biztonság: Az adatok biztonságosan vannak tárolva.
+- Reszponzivitás: A webalkalmazás minden eszközön (desktop, tablet, mobil) jól használható.
+- Megbízhatóság: A rendszer folyamatosan elérhető és karbantartható.
 
 ## 6. Rendszer működése
 # 6.1. Regisztráció / Bejelentkezés
