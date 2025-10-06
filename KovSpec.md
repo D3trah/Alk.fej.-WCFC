@@ -17,6 +17,11 @@ Amikor egy szurkoló újonnan csatlakozik, egyből hozzáfér minden olyan funkc
 - Információk
     - Meccs eredmények
     - Jövendőbeli meccsek
+    - Csapattagok megtekintése
+    - Információ a játékosokról
+    - Social media
+    - Szponzorok
+
 - Extra lehetőségek
     - Dark mode és Light mode változtatása
     - Nyelv választás (Magyar/Angol)
