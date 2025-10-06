@@ -17,6 +17,11 @@ Amikor egy szurkoló újonnan csatlakozik, egyből hozzáfér minden olyan funkc
 - Információk
     - Meccs eredmények
     - Jövendőbeli meccsek
+    - Csapattagok megtekintése
+    - Információ a játékosokról
+    - Social media
+    - Szponzorok
+
 - Extra lehetőségek
     - Dark mode és Light mode változtatása
     - Nyelv választás (Magyar/Angol)
@@ -31,6 +36,9 @@ Amikor egy szurkoló újonnan csatlakozik, egyből hozzáfér minden olyan funkc
 - Minden olyan digitális anyag (hír, kép, videó, szavazás), amely a csapat életéhez kapcsolódik, és a közösség számára elérhetővé tesszük.
 ## Szurkolói értékelés:
 - Az egyes tartalmak értékét a szurkolói aktivitás (pl. lájkok, hozzászólások, megosztások) alapján mérjük. Egyes bejegyzések nagyobb figyelmet kapnak, így kiemelt helyre kerülnek.
+
+## Szponzor
+- A szponzor olyan természetes személy vagy szervezet, amely anyagi vagy egyéb támogatást nyújt egy tevékenységhez, eseményhez, személyhez vagy szervezethez, általában a reklám, a márkaismertség növelése, üzleti kapcsolatok építése vagy a közösségi célok támogatása érdekében.
 
 # 6. Rendszerre vonatkozó törvények, szabványok, ajánlások
 ## Törvények
