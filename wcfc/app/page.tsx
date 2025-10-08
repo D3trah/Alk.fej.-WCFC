@@ -25,7 +25,14 @@ export default function Home() {
             <CardTitle className="text-3xl">{t("aboutTitle")}</CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="text-lg leading-relaxed text-muted-foreground">{t("aboutText")}</p>
+            <p className="text-lg leading-relaxed text-muted-foreground">
+              {t("aboutText").split('\n').map((line, index) => (
+                <span key={index}>
+                  {line}
+                  <br />
+                </span>
+              ))}
+            </p>
           </CardContent>
         </Card>
       </section>
@@ -37,26 +44,26 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Card>
               <CardHeader>
-                <CardTitle className="text-center text-green-600">15</CardTitle>
+                <p className="text-center text-3xl font-semibold">{t("wins")}</p>
               </CardHeader>
               <CardContent>
-                <p className="text-center text-xl font-semibold">{t("wins")}</p>
+                <CardTitle className="text-center text-3xl text-green-600">37</CardTitle>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle className="text-center text-yellow-600">8</CardTitle>
+                <p className="text-center text-3xl font-semibold">{t("draws")}</p>
               </CardHeader>
               <CardContent>
-                <p className="text-center text-xl font-semibold">{t("draws")}</p>
+                <CardTitle className="text-center text-3xl text-yellow-600">5</CardTitle>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle className="text-center text-red-600">5</CardTitle>
+                <p className="text-center text-3xl font-semibold">{t("losses")}</p>
               </CardHeader>
               <CardContent>
-                <p className="text-center text-xl font-semibold">{t("losses")}</p>
+                <CardTitle className="text-center text-3xl text-red-600">12</CardTitle>
               </CardContent>
             </Card>
           </div>

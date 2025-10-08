@@ -7,8 +7,8 @@ export const translations = {
     teamName: "WaterCloset FC",
     tagline: "''The early 5uper catches the lel!''",
     aboutTitle: "About Our Team",
-    aboutText:
-      "WCFC is more than just a soccer team - we are a family united by our passion for the beautiful game. Founded with a unique spirit and unwavering determination, we bring energy and excellence to every match.",
+    aboutText: 
+      "WCFC is more than just a football team — we're a movement. Born of creativity, friendship, and a love for the beauty of the game, we play with heart, humor, and hustle. From the pitch to the streets, our motto stays the same: tough on the field, tougher in spirit.\n\nOur identity — bold, symbolic, and proud — represents everything we believe in: teamwork, resilience, and a little bit of chaos in the name of fun. Whether it's pulling off a\nlast-minute win or celebrating like legends, WCFC brings passion, energy, and good vibes wherever we go.\n\nJoin the family. Join the win. 💛💚\n\n#WCFC #ToiletWin #GoblinGang",
     upcomingMatches: "Upcoming Matches",
     teamStats: "Team Statistics",
     wins: "Wins",
@@ -35,7 +35,7 @@ export const translations = {
     tagline: "''Ki korán kel 5uper_lel!''",
     aboutTitle: "Csapatunkról",
     aboutText:
-      "A WCFC több mint egy futballcsapat - egy család vagyunk, amelyet a gyönyörű játék iránti szenvedély köt össze. Egyedi szellemmel és rendíthetetlen elszántsággal alapítva, minden mérkőzésre energiát és kiválóságot hozunk.",
+      "A WCFC több mint egy futballcsapat — hanem egy mozgalom. Kreativitásból, barátságból és a játék iránti szeretetünkből születtünk. Minden meccsbe szívvel, humorral és lendülettel vetjük bele magunkat. A pályán és azon kívül is ugyanaz a mottónk ugyanaz: kemények a pályán, de még keményebbek lélekben.\n\nA személyiségünk — merész, szimbolikus és büszke — mindent képvisel, ami nekünk fontos: csapatmunka, kitartás és egy kis káosz a szórakozás nevében. Legyen szó utolsó perces győzelemről vagy legendás ünneplésről, a WCFC mindenhol szenvedélyt, energiát és jó hangulatot hoz.\n\nCsatlakozz a családhoz. Csatlakozz a győzelemhez. 💛💚\n\n#WCFC #ToiletWin #GoblinGang",
     upcomingMatches: "Következő Mérkőzések",
     teamStats: "Csapat Statisztikák",
     wins: "Győzelem",
