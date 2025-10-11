@@ -25,6 +25,7 @@ export const translations = {
     hasAccount: "Already have an account?",
     signUpLink: "Sign up",
     signInLink: "Sign in",
+      playersTitle: "Players",
   },
   hu: {
     home: "Főoldal",
@@ -52,6 +53,7 @@ export const translations = {
     hasAccount: "Van már fiókod?",
     signUpLink: "Regisztrálj",
     signInLink: "Jelentkezz be",
+    playersTitle: "Játékosok",
   },
 } as const
 

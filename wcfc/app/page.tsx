@@ -3,6 +3,7 @@
 import Image from "next/image"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { useLanguage } from "@/contexts/language-context"
+import PlayersSection from "@/components/PlayerSection";
 
 export default function Home() {
   const { t } = useLanguage()
@@ -69,6 +70,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <PlayersSection />
     </main>
   )
 }
