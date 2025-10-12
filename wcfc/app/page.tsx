@@ -56,7 +56,7 @@ export default function Home() {
                 <p className="text-center text-3xl font-semibold">{t("draws")}</p>
               </CardHeader>
               <CardContent>
-                <CardTitle className="text-center text-3xl text-yellow-600">5</CardTitle>
+                <CardTitle className="text-center text-3xl text-yellow-600">6</CardTitle>
               </CardContent>
             </Card>
             <Card>
@@ -64,13 +64,13 @@ export default function Home() {
                 <p className="text-center text-3xl font-semibold">{t("losses")}</p>
               </CardHeader>
               <CardContent>
-                <CardTitle className="text-center text-3xl text-red-600">12</CardTitle>
+                <CardTitle className="text-center text-3xl text-red-600">7</CardTitle>
               </CardContent>
             </Card>
           </div>
         </div>
       </section>
-
+      {/* Player Section */}
       <PlayersSection />
     </main>
   )

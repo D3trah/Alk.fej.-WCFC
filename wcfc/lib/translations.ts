@@ -36,7 +36,7 @@ export const translations = {
     tagline: "''Ki korán kel 5uper_lel!''",
     aboutTitle: "Csapatunkról",
     aboutText:
-      "A WCFC több mint egy futballcsapat — hanem egy mozgalom. Kreativitásból, barátságból és a játék iránti szeretetünkből születtünk. Minden meccsbe szívvel, humorral és lendülettel vetjük bele magunkat. A pályán és azon kívül is ugyanaz a mottónk ugyanaz: kemények a pályán, de még keményebbek lélekben.\n\nA személyiségünk — merész, szimbolikus és büszke — mindent képvisel, ami nekünk fontos: csapatmunka, kitartás és egy kis káosz a szórakozás nevében. Legyen szó utolsó perces győzelemről vagy legendás ünneplésről, a WCFC mindenhol szenvedélyt, energiát és jó hangulatot hoz.\n\nCsatlakozz a családhoz. Csatlakozz a győzelemhez. 💛💚\n\n#WCFC #ToiletWin #GoblinGang",
+      "A WCFC több mint egy futballcsapat — egy mozgalom. Kreativitásból, barátságból és a játék iránti szeretetünkből születtünk. Minden meccsbe szívvel, humorral és lendülettel vetjük bele magunkat. A pályán és azon kívül is ugyanaz a mottónk ugyanaz: kemények a pályán, de még keményebbek lélekben.\n\nA személyiségünk — merész, szimbolikus és büszke — mindent képvisel, ami nekünk fontos: csapatmunka, kitartás és egy kis káosz a szórakozás nevében. Legyen szó utolsó perces győzelemről vagy legendás ünneplésről, a WCFC mindenhol szenvedélyt, energiát és jó hangulatot hoz.\n\nCsatlakozz a családhoz. Csatlakozz a győzelemhez. 💛💚\n\n#WCFC #ToiletWin #GoblinGang",
     upcomingMatches: "Következő Mérkőzések",
     teamStats: "Csapat Statisztikák",
     wins: "Győzelem",
