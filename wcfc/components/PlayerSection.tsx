@@ -25,7 +25,7 @@ export default function PlayersSection() {
         {players.map((p, i) => (
           <div
             key={i}
-            className="flex-shrink-0 w-52 rounded-2xl bg-white dark:bg-gray-800 shadow-lg transform hover:scale-105 transition-transform duration-200"
+            className="flex-shrink-0 w-60 rounded-2xl bg-white dark:bg-gray-800 shadow-lg transform hover:scale-105 transition-transform duration-200"
           >
             <div className="relative w-full h-56 rounded-t-2xl overflow-hidden">
               <Image src={p.image} alt={p.name} fill className="object-cover" />
