@@ -27,7 +27,7 @@ export default function PlayersSection() {
             key={i}
             className="flex-shrink-0 w-60 rounded-2xl bg-white dark:bg-gray-800 shadow-lg transform hover:scale-105 transition-transform duration-200"
           >
-            <div className="relative w-full h-56 rounded-t-2xl overflow-hidden">
+            <div className="relative w-full h-70 rounded-t-2xl overflow-hidden">
               <Image src={p.image} alt={p.name} fill className="object-cover" />
             </div>
             <div className="p-4 text-center">
