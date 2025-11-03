@@ -4,6 +4,7 @@ import Image from "next/image"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { useLanguage } from "@/contexts/language-context"
 import PlayersSection from "@/components/PlayerSection";
+import UpcomingMatches from "@/components/UpcomingMatches";
 
 export default function Home() {
   const { t } = useLanguage()
@@ -72,6 +73,10 @@ export default function Home() {
       </section>
       {/* Player Section */}
       <PlayersSection />
+
+    {/* Egyéb szekciók */}
+      <UpcomingMatches />
+      
     </main>
   )
 }

@@ -21,7 +21,7 @@ export default function PlayersSection() {
     <section className="mt-10">
       <h2 className="text-3xl font-bold text-center mb-6">{t("playersTitle")}</h2>
 
-      <div className="flex gap-6 overflow-x-auto pb-6 px-4 scrollbar-hide">
+     <div className="flex gap-6 overflow-x-auto pb-6 px-4 scrollbar-hide">
         {players.map((p, i) => (
           <div
             key={i}
