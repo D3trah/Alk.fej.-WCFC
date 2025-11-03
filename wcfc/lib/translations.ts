@@ -26,6 +26,12 @@ export const translations = {
     signUpLink: "Sign up",
     signInLink: "Sign in",
       playersTitle: "Players",
+    matchResultsTitle: "Match Results",
+    matchDate: "Date",
+    matchOpponent: "Opponent",
+    matchScore: "Result",
+    matchScorers: "Scorers",
+    noGoals: "No goals scored",
   },
   hu: {
     home: "Főoldal",
@@ -54,6 +60,12 @@ export const translations = {
     signUpLink: "Regisztrálj",
     signInLink: "Jelentkezz be",
     playersTitle: "Játékosok",
+    matchResultsTitle: "Meccseredmények",
+    matchDate: "Dátum",
+    matchOpponent: "Ellenfél",
+    matchScore: "Eredmény",
+    matchScorers: "Gólszerzők",
+    noGoals: "Nem született gól",
   },
 } as const
 
