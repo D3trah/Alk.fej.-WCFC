@@ -142,6 +142,49 @@ export const translations = {
     signUpLink: "Regisztrálj",
     signInLink: "Jelentkezz be",
     playersTitle: "Játékosok",
+
+    players: {
+      "Apokrif": {
+        displayName: "Apokrif",
+        position: "Csatár",
+        info: "Apokrif igazi támadógép — ha lendületbe jön, a védők csak imádkozhatnak. A kapusok rettegnek tőle, és nem véletlenül: bárhonnan képes betalálni. Nem mindig a csapatjáték mestere, de ha gólról van szó, nála nincs jobb.",
+      },
+      "killer2004": {
+        displayName: "killer2004",
+        position: "Középső védő",
+        info: "Killer2004 a csapat egyik tartóoszlopa, igazi szervezőerő a pályán. Bárhol képes jól játszani, de hátul és középen érzi magát otthon. Kiválóan olvassa a játékot, mindig tisztában van azzal, mi történik körülötte, és stabilitást ad a csapatnak minden meccsen.",
+      },
+      "Lel": {
+        displayName: "Lel",
+        position: "Kapus",
+        info: "Lel lehet, hogy nem rúg erősen, de kapusként elképesztő. Reflexei legendásak, a fej feletti passzai pedig már-már védjegyévé váltak. Az ikonikus „egy-kettő” a kedvenc mozdulata, és mindig képes meglepni az ellenfelet.",
+      },
+      "ballclef": {
+        displayName: "ballclef",
+        position: "Középpályás",
+        info: "Ha lenne kispad, valószínűleg Ballclef ülne rajta — de mindenki tudja, nélküle a csapat nem lenne ugyanaz. Csendben dolgozik a háttérben, de ő a csapat egy fontos tagja, aki összetartja az egészet.",
+      },
+      "sisini": {
+        displayName: "sisini.",
+        position: "Támadó középpályás",
+        info: "Sisini nem a taktikák nagymestere, hanem az ösztönös játéké. Szó nélkül is érti a csapattársait, mindig jókor van jó helyen, és támadásban igazi veszélyt jelent. Nem beszél sokat, de a pályán minden mozdulata jelent valamit.",
+      },
+      "akna": {
+        displayName: "akna",
+        position: "Szélső csatár",
+        info: "Akna hangos, de a játéka még hangosabb. „All bark, all bite” — ez ő. A legjobban Apokrif mellett érzi magát elöl, de akár kapuban is megállná a helyét. Rengeteg gólpasszt ad, és maga is gyakran betalál.",
+      },
+      "D3trah": {
+        displayName: "D3trah",
+        position: "Középpályás",
+        info: "D3trah új tag, de pillanatok alatt megtalálta a helyét a középpályán. Fegyelmezett, fókuszált, és már most a csapat egyik legmegbízhatóbb játékosa. Nem beszél sokat, de amit a pályán csinál, az mindent elmond róla.",
+      },
+      "Lamine Yamal": {
+        displayName: "Lamine Yamal",
+        position: "Cserejátékos",
+        info: "A csapat legújabb tagja és egyben a legnagyobb álmodozó. Gyerekkora óta arról álmodott, hogy egyszer a WCFC mezét viselheti. Még nem a legjobb játékos, de lelkesedésben senki sem éri utol — minden meccset úgy él meg, mintha a világbajnoki döntő lenne.",
+      },
+    },
   },
 } as const;
 
