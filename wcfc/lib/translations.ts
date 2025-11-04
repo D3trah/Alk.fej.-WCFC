@@ -26,7 +26,6 @@ export const translations = {
     signUpLink: "Sign up",
     signInLink: "Sign in",
     playersTitle: "Players",
-
     
     upcomingMatchesList: [
       {
@@ -65,6 +64,55 @@ export const translations = {
           "A thrilling Italian battle. WCFC travels to Turin to face the legendary Juventus in a high-stakes matchup.",
       },
     ],
+    position: "Position",
+    matchResultsTitle: "Match Results",
+    matchDate: "Date",
+    matchOpponent: "Opponent",
+    matchScore: "Result",
+    matchScorers: "Scorers",
+    noGoals: "No goals scored",
+    players: {
+      "Apokrif": {
+        displayName: "Apokrif",
+        position: "Striker",
+        info: "Apokrif is a true attacking machine — once he gets going, defenders start praying. Goalkeepers fear him for a reason: he can strike at any moment. Not the biggest team player, but when it comes to goals, he always delivers.",
+      },
+      "killer2004": {
+        displayName: "killer2004",
+        position: "Centre-back",
+        info: "Killer is the backbone of the team. He can play anywhere, but truly shines in midfield and defense. His awareness is unmatched — he always knows what’s going on around him. The team’s architect, and without him, WCFC wouldn’t be the same.",
+      },
+      "Lel": {
+        displayName: "Lel",
+        position: "Goalkeeper",
+        info: "Lel may not be the best shooter, but he’s an incredible keeper. His reflexes are legendary, and his over-the-head passes have become a trademark. His favorite move is the classic “one-two,” and he always finds a way to surprise his opponents.",
+      },
+      "ballclef": {
+        displayName: "ballclef",
+        position: "Midfielder",
+        info: "If there was a bench, he’d be sitting on it — but everyone knows the team wouldn’t exist without him. He works quietly in the background, but he’s a real part of the squad, holding everything together.",
+      },
+      "sisini": {
+        displayName: "sisini.",
+        position: "Attacking Midfielder",
+        info: "Sisini isn’t famous for talking tactics — he just gets it. His instincts are razor sharp, always attacking and linking up perfectly with teammates. He doesn’t say much, but every move he makes speaks volumes.",
+      },
+      "akna": {
+        displayName: "akna",
+        position: "Winger",
+        info: "As loud as he talks, he plays even louder. “All bark, all bite” — that’s Akna in one line. Works best up front next to Apokrif, but could even fill in as keeper. A constant threat, with plenty of assists and goals to his name.",
+      },
+      "D3trah": {
+        displayName: "D3trah",
+        position: "Midfielder",
+        info: "D3trah is a recent addition, but she found her place in midfield fast. Disciplined, focused, and already one of the team’s most reliable players. She doesn’t talk much — her performance does the talking.",
+      },
+      "Lamine Yamal": {
+        displayName: "Lamine Yamal",
+        position: "Substitute",
+        info: "The newest member of the team and its biggest dreamer. Ever since he was a kid, his dream was to wear the WCFC jersey. He’s not the best player yet, but he brings unmatched energy and plays every match like it’s the World Cup final.",
+      },
+    },
   },
 
   hu: {
@@ -77,7 +125,7 @@ export const translations = {
     aboutTitle: "Csapatunkról",
     aboutText:
       "A WCFC több mint egy futballcsapat - egy közösség, mely kreativitásunkból, barátságunkból és a játék iránti szeretetünkből született. Minden meccset szívvel, humorral és lendülettel játszunk. Mottónk a pályán kívül is ugyanaz marad: erősek a játékban, de még erősebbek lélekben. \n\nMerész, szimbolikus és büszke öntudatunk mindent képvisel, ami nekünk fontos: csapatmunka, kitartás és egy kis káosz a szórakozás nevében. Legyen szó utolsó perces győzelemről vagy legendás ünneplésről, a WCFC mindenhol szenvedélyt, energiát és jó hangulatot teremt. Csatlakozz a családhoz. \n\nCsatlakozz a győzelemhez. 💛💚\n\n#WCFC #ToiletWin #GoblinGang",
-    upcomingMatches: "Közelgő Mérkőzések",
+    upcomingMatches: "Következő Mérkőzések",
     teamStats: "Csapat Statisztikák",
     wins: "Győzelem",
     draws: "Döntetlen",
@@ -94,44 +142,6 @@ export const translations = {
     signUpLink: "Regisztrálj",
     signInLink: "Jelentkezz be",
     playersTitle: "Játékosok",
-
-    upcomingMatchesList: [
-      {
-        opponent: "Zsóry FC",
-        date: "2025. november 10.",
-        location: "Mezőkövesdi Zsóry Stadion",
-        description:
-          "Izgalmas összecsapás Mezőkövesd egyik legjobb klubja ellen (a WCFC után). A WCFC készen áll, hogy megmutassa erejét a Zsóry Stadion fényében.",
-      },
-      {
-        opponent: "Real Madrid",
-        date: "2025. november 17.",
-        location: "Santiago Bernabéu",
-        description:
-          "A spanyol óriások otthonában – a WCFC számára ez igazi szenvedély- és fegyelempróba.",
-      },
-      {
-        opponent: "FC Barcelona",
-        date: "2025. november 24.",
-        location: "Camp Nou",
-        description:
-          "Történelmi mérkőzés a Camp Nou-ban. A WCFC védelmének ki kell állnia a Barcelona támadóerejét.",
-      },
-      {
-        opponent: "Bayern München",
-        date: "2025. december 1.",
-        location: "Allianz Aréna",
-        description:
-          "A német bajnok várja a kihívást. Precíz, fegyelmezett játék és küzdőszellem estje Münchenben.",
-      },
-      {
-        opponent: "Juventus",
-        date: "2025. december 8.",
-        location: "Allianz Stadion",
-        description:
-          "Izgalmas olasz összecsapás. A WCFC Torinóba utazik, hogy megmérkőzzön a legendás Juventusszal.",
-      },
-    ],
   },
 } as const;
 
