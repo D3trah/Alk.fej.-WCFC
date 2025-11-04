@@ -27,6 +27,12 @@ export const translations = {
     signInLink: "Sign in",
     playersTitle: "Players",
     position: "Position",
+    matchResultsTitle: "Match Results",
+    matchDate: "Date",
+    matchOpponent: "Opponent",
+    matchScore: "Result",
+    matchScorers: "Scorers",
+    noGoals: "No goals scored",
     players: {
       "Apokrif": {
         displayName: "Apokrif",
@@ -98,6 +104,12 @@ export const translations = {
     signInLink: "Jelentkezz be",
     playersTitle: "Játékosok",
     position: "Pozíció",
+    matchResultsTitle: "Meccseredmények",
+    matchDate: "Dátum",
+    matchOpponent: "Ellenfél",
+    matchScore: "Eredmény",
+    matchScorers: "Gólszerzők",
+    noGoals: "Nem született gól",
     players: {
       "Apokrif": {
         displayName: "Apokrif",
