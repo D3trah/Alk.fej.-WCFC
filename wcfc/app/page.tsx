@@ -50,7 +50,7 @@ export default function Home() {
                 <p className="text-center text-3xl font-semibold">Győzelmek</p>
               </CardHeader>
               <CardContent>
-                <CardTitle className="text-center text-3xl text-green-600">37</CardTitle>
+                <CardTitle className="text-center text-3xl text-green-600">41</CardTitle>
               </CardContent>
             </Card>
             <Card>
