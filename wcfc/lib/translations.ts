@@ -26,6 +26,44 @@ export const translations = {
     signUpLink: "Sign up",
     signInLink: "Sign in",
     playersTitle: "Players",
+    
+    upcomingMatchesList: [
+      {
+        opponent: "Zsóry FC",
+        date: "November 10, 2025",
+        location: "Mezőkövesdi Zsóry Stadion",
+        description:
+          "An exciting clash against one of Mezőkövesd’s finest clubs — WCFC. The team is ready to showcase its strength under the bright lights of Zsóry Stadium.",
+      },
+      {
+        opponent: "Real Madrid",
+        date: "November 17, 2025",
+        location: "Santiago Bernabéu",
+        description:
+          "Facing the Spanish giants in Madrid — a true test of passion, discipline, and toilet magic.",
+      },
+      {
+        opponent: "FC Barcelona",
+        date: "November 24, 2025",
+        location: "Camp Nou",
+        description:
+          "A historic showdown at Camp Nou. WCFC’s defense will have to shine against Barcelona’s attacking brilliance.",
+      },
+      {
+        opponent: "Bayern München",
+        date: "December 1, 2025",
+        location: "Allianz Arena",
+        description:
+          "The German champions await. A night of precision football and raw determination in Munich.",
+      },
+      {
+        opponent: "Juventus",
+        date: "December 8, 2025",
+        location: "Allianz Stadium",
+        description:
+          "A thrilling Italian battle. WCFC travels to Turin to face the legendary Juventus in a high-stakes matchup.",
+      },
+    ],
     position: "Position",
     matchResultsTitle: "Match Results",
     matchDate: "Date",
@@ -76,6 +114,7 @@ export const translations = {
       },
     },
   },
+
   hu: {
     home: "Főoldal",
     login: "Bejelentkezés",
@@ -103,55 +142,6 @@ export const translations = {
     signUpLink: "Regisztrálj",
     signInLink: "Jelentkezz be",
     playersTitle: "Játékosok",
-    position: "Pozíció",
-    matchResultsTitle: "Meccseredmények",
-    matchDate: "Dátum",
-    matchOpponent: "Ellenfél",
-    matchScore: "Eredmény",
-    matchScorers: "Gólszerzők",
-    noGoals: "Nem született gól",
-    players: {
-      "Apokrif": {
-        displayName: "Apokrif",
-        position: "Csatár",
-        info: "Apokrif igazi támadógép — ha lendületbe jön, a védők csak imádkozhatnak. A kapusok rettegnek tőle, és nem véletlenül: bárhonnan képes betalálni. Nem mindig a csapatjáték mestere, de ha gólról van szó, nála nincs jobb.",
-      },
-      "killer2004": {
-        displayName: "killer2004",
-        position: "Középső védő",
-        info: "Killer2004 a csapat egyik tartóoszlopa, igazi szervezőerő a pályán. Bárhol képes jól játszani, de hátul és középen érzi magát otthon. Kiválóan olvassa a játékot, mindig tisztában van azzal, mi történik körülötte, és stabilitást ad a csapatnak minden meccsen.",
-      },
-      "Lel": {
-        displayName: "Lel",
-        position: "Kapus",
-        info: "Lel lehet, hogy nem rúg erősen, de kapusként elképesztő. Reflexei legendásak, a fej feletti passzai pedig már-már védjegyévé váltak. Az ikonikus „egy-kettő” a kedvenc mozdulata, és mindig képes meglepni az ellenfelet.",
-      },
-      "ballclef": {
-        displayName: "ballclef",
-        position: "Középpályás",
-        info: "Ha lenne kispad, valószínűleg Ballclef ülne rajta — de mindenki tudja, nélküle a csapat nem lenne ugyanaz. Csendben dolgozik a háttérben, de ő a csapat egy fontos tagja, aki összetartja az egészet.",
-      },
-      "sisini": {
-        displayName: "sisini.",
-        position: "Támadó középpályás",
-        info: "Sisini nem a taktikák nagymestere, hanem az ösztönös játéké. Szó nélkül is érti a csapattársait, mindig jókor van jó helyen, és támadásban igazi veszélyt jelent. Nem beszél sokat, de a pályán minden mozdulata jelent valamit.",
-      },
-      "akna": {
-        displayName: "akna",
-        position: "Szélső csatár",
-        info: "Akna hangos, de a játéka még hangosabb. „All bark, all bite” — ez ő. A legjobban Apokrif mellett érzi magát elöl, de akár kapuban is megállná a helyét. Rengeteg gólpasszt ad, és maga is gyakran betalál.",
-      },
-      "D3trah": {
-        displayName: "D3trah",
-        position: "Középpályás",
-        info: "D3trah új tag, de pillanatok alatt megtalálta a helyét a középpályán. Fegyelmezett, fókuszált, és már most a csapat egyik legmegbízhatóbb játékosa. Nem beszél sokat, de amit a pályán csinál, az mindent elmond róla.",
-      },
-      "Lamine Yamal": {
-        displayName: "Lamine Yamal",
-        position: "Cserejátékos",
-        info: "A csapat legújabb tagja és egyben a legnagyobb álmodozó. Gyerekkora óta arról álmodott, hogy egyszer a WCFC mezét viselheti. Még nem a legjobb játékos, de lelkesedésben senki sem éri utol — minden meccset úgy él meg, mintha a világbajnoki döntő lenne.",
-      },
-    },
   },
 } as const;
 

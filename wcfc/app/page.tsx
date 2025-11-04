@@ -5,7 +5,8 @@ import Link from "next/link"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/contexts/language-context"
-import PlayersSection from "@/components/PlayerSection"
+import PlayersSection from "@/components/PlayerSection";
+import UpcomingMatches from "@/components/UpcomingMatches";
 
 export default function Home() {
   const { t } = useLanguage()
@@ -80,6 +81,10 @@ export default function Home() {
       </section>
 
       <PlayersSection />
+
+    {/* Egyéb szekciók */}
+      <UpcomingMatches />
+      
     </main>
   )
 }
