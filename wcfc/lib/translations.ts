@@ -142,6 +142,49 @@ export const translations = {
     signUpLink: "Regisztrálj",
     signInLink: "Jelentkezz be",
     playersTitle: "Játékosok",
+    position: "Pozíció",
+    matchDate: "Dátum",
+    matchOpponent: "Ellenfél",
+    matchScore: "Eredmény",
+    matchScorers: "Gólszerzők",
+
+    upcomingMatchesList: [
+      {
+        opponent: "Zsóry FC",
+        date: "2025. november 10.",
+        location: "Mezőkövesdi Zsóry Stadion",
+        description:
+          "Izgalmas összecsapás Mezőkövesd egyik legjobb klubja ellen (a WCFC után). A WCFC készen áll, hogy megmutassa erejét a Zsóry Stadion fényében.",
+      },
+      {
+        opponent: "Real Madrid",
+        date: "2025. november 17.",
+        location: "Santiago Bernabéu",
+        description:
+          "A spanyol óriások otthonában – a WCFC számára ez igazi szenvedély- és fegyelempróba.",
+      },
+      {
+        opponent: "FC Barcelona",
+        date: "2025. november 24.",
+        location: "Camp Nou",
+        description:
+          "Történelmi mérkőzés a Camp Nou-ban. A WCFC védelmének ki kell állnia a Barcelona támadóerejét.",
+      },
+      {
+        opponent: "Bayern München",
+        date: "2025. december 1.",
+        location: "Allianz Aréna",
+        description:
+          "A német bajnok várja a kihívást. Precíz, fegyelmezett játék és küzdőszellem estje Münchenben.",
+      },
+      {
+        opponent: "Juventus",
+        date: "2025. december 8.",
+        location: "Allianz Stadion",
+        description:
+          "Izgalmas olasz összecsapás. A WCFC Torinóba utazik, hogy megmérkőzzön a legendás Juventusszal.",
+      },
+    ],
 
     players: {
       "Apokrif": {
