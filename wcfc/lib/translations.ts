@@ -14,6 +14,7 @@ export const translations = {
     wins: "Wins",
     draws: "Draws",
     losses: "Losses",
+    matchresults: "View Match Results",
     email: "Email",
     password: "Password",
     confirmPassword: "Confirm Password",
@@ -25,7 +26,13 @@ export const translations = {
     hasAccount: "Already have an account?",
     signUpLink: "Sign up",
     signInLink: "Sign in",
-    playersTitle: "Players",
+    playersTitle: "Players",    
+    position: "Position",
+    matchResultsTitle: "Match Results",
+    matchDate: "Date",
+    matchOpponent: "Opponent",
+    matchScore: "Result",
+    matchScorers: "Scorers",
     
     upcomingMatchesList: [
       {
@@ -64,13 +71,6 @@ export const translations = {
           "A thrilling Italian battle. WCFC travels to Turin to face the legendary Juventus in a high-stakes matchup.",
       },
     ],
-    position: "Position",
-    matchResultsTitle: "Match Results",
-    matchDate: "Date",
-    matchOpponent: "Opponent",
-    matchScore: "Result",
-    matchScorers: "Scorers",
-    noGoals: "No goals scored",
     players: {
       "Apokrif": {
         displayName: "Apokrif",
@@ -130,6 +130,7 @@ export const translations = {
     wins: "Győzelem",
     draws: "Döntetlen",
     losses: "Vereség",
+    matchresults: "Meccseredmények Megtekintése",
     email: "E-mail",
     password: "Jelszó",
     confirmPassword: "Jelszó Megerősítése",
@@ -147,6 +148,7 @@ export const translations = {
     matchOpponent: "Ellenfél",
     matchScore: "Eredmény",
     matchScorers: "Gólszerzők",
+    matchResultsTitle: "Eredmények",
 
     upcomingMatchesList: [
       {
