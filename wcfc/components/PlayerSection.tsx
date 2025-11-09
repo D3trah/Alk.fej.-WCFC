@@ -77,8 +77,6 @@ export default function PlayersSection() {
                 {translations[language].players[selectedPlayer.name].position}
               </p>
               <p className="text-lg leading-relaxed">
-                <span className="font-semibold text-green-700 dark:text-green-400">
-                </span>{" "}
                 {translations[language].players[selectedPlayer.name].info}
               </p>
             </div>

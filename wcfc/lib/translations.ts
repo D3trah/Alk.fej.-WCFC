@@ -114,6 +114,16 @@ export const translations = {
         info: "The newest member of the team and its biggest dreamer. Ever since he was a kid, his dream was to wear the WCFC jersey. He’s not the best player yet, but he brings unmatched energy and plays every match like it’s the World Cup final.",
       },
     },
+
+    matchStats: {
+      possession: "Ball possession",
+      shots: "Shots",
+      shotsOnTarget: "Shots on target",
+      fouls: "Fouls",
+      yellowCards: "Yellow cards",
+      redCards: "Red cards",
+      corners: "Corners",
+    },
   },
 
   hu: {
@@ -231,6 +241,16 @@ export const translations = {
         position: "Cserejátékos",
         info: "A csapat legújabb tagja és egyben a legnagyobb álmodozó. Gyerekkora óta arról álmodott, hogy egyszer a WCFC mezét viselheti. Még nem a legjobb játékos, de lelkesedésben senki sem éri utol — minden meccset úgy él meg, mintha a világbajnoki döntő lenne.",
       },
+    },
+
+    matchStats: {
+      possession: "Labdabirtoklás",
+      shots: "Lövések",
+      shotsOnTarget: "Kapura lövések",
+      fouls: "Szabálytalanságok",
+      yellowCards: "Sárga lapok",
+      redCards: "Piros lapok",
+      corners: "Szögletek",
     },
   },
 } as const;
