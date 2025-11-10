@@ -7,6 +7,9 @@ import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/contexts/language-context"
 import PlayersSection from "@/components/PlayerSection";
 import UpcomingMatches from "@/components/UpcomingMatches";
+import SocialFooter from "@/components/SocialFooter";
+
+
 
 export default function Home() {
   const { t } = useLanguage()
@@ -82,6 +85,10 @@ export default function Home() {
 
     {/* Egyéb szekciók */}
       <UpcomingMatches />
+
+      <SocialFooter>
+
+      </SocialFooter>
       
     </main>
   )

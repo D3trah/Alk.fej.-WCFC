@@ -3,7 +3,8 @@
 import { useLanguage } from "@/contexts/language-context";
 import { translations } from "@/lib/translations";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { ThemeContext } from "@/contexts/theme-provider";
 
 const imageMap: Record<string, string> = {
   "Zsóry FC": "/kovesd.jpg",
@@ -18,13 +19,15 @@ export default function UpcomingMatchesSection() {
   const matches = translations[language].upcomingMatchesList;
   const [selectedMatch, setSelectedMatch] = useState<(typeof matches)[0] | null>(null);
 
+  const themeContext = useContext(ThemeContext);
+  const theme = themeContext?.theme || "light";
+
   return (
-    <section className="relative bg-gradient-to-b from-black via-[#0a0a0a] to-[#001a00] text-white py-16 px-8">
+    <section className={`relative py-16 px-8 ${theme === "dark" ? "bg-black text-white" : "bg-white text-black"}`}>
       <h2 className="text-4xl font-extrabold mb-12 text-center text-green-400 uppercase">
         {t("upcomingMatches")}
       </h2>
 
-      {/* Kártyák */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
         {matches.map((match, index) => {
           const img = imageMap[match.opponent] || "/default.jpg";
@@ -32,7 +35,8 @@ export default function UpcomingMatchesSection() {
             <div
               key={index}
               onClick={() => setSelectedMatch(match as (typeof matches)[0])}
-              className="relative group overflow-hidden rounded-2xl bg-[#0f0f0f] border border-green-900/40 shadow-lg hover:shadow-green-600/40 transition-all duration-500 cursor-pointer"
+
+              className={`relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-green-600/40 transition-all duration-500 cursor-pointer ${theme === "dark" ? "bg-gray-900 text-white border-gray-700" : "bg-white text-black border-gray-300"}`}
             >
               <Image
                 src={img}
@@ -45,15 +49,14 @@ export default function UpcomingMatchesSection() {
                 <h3 className="text-2xl font-bold text-green-400 group-hover:text-green-300 transition-all">
                   WCFC vs {match.opponent}
                 </h3>
-                <p className="text-sm text-gray-300 mt-2">{match.date}</p>
-                <p className="text-sm text-gray-400">{match.location}</p>
+                <p className="mt-2">{match.date}</p>
+                <p>{match.location}</p>
               </div>
             </div>
           );
         })}
       </div>
 
-      {/* Overlay ablak */}
       {selectedMatch && (
         <div
           onClick={() => setSelectedMatch(null)}
@@ -61,7 +64,7 @@ export default function UpcomingMatchesSection() {
         >
           <div
             onClick={(e) => e.stopPropagation()}
-            className="bg-[#111] rounded-2xl p-10 max-w-lg w-full text-center border border-green-700/50"
+            className={`rounded-2xl p-10 max-w-lg w-full text-center border ${theme === "dark" ? "bg-gray-900 text-white border-gray-700" : "bg-white text-black border-gray-300"}`}
           >
             <Image
               src={imageMap[selectedMatch.opponent] || "/default.jpg"}
@@ -73,9 +76,9 @@ export default function UpcomingMatchesSection() {
             <h3 className="text-3xl font-bold text-green-400 mb-2">
               WCFC vs {selectedMatch.opponent}
             </h3>
-            <p className="text-gray-300 mb-1">{selectedMatch.date}</p>
-            <p className="text-gray-400 mb-4">{selectedMatch.location}</p>
-            <p className="text-gray-200">{selectedMatch.description}</p>
+            <p className="mb-1">{selectedMatch.date}</p>
+            <p className="mb-4">{selectedMatch.location}</p>
+            <p>{selectedMatch.description}</p>
           </div>
         </div>
       )}
