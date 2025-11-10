@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google"
 import "./globals.css"
 import { Providers } from "@/components/providers"
 import { Header } from "@/components/header"
+import Sponsors from "@/components/Sponsors"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,7 +19,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "WCFC - WaterCloset FC",
   description: "Official website of WaterCloset FC soccer team",
-    generator: 'v0.app'
+  generator: "v0.app",
 }
 
 export default function RootLayout({
@@ -32,6 +33,7 @@ export default function RootLayout({
         <Providers>
           <Header />
           {children}
+          <Sponsors />
         </Providers>
       </body>
     </html>

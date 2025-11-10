@@ -1,3 +1,5 @@
+import Sponsors from "@/components/Sponsors";
+
 export const translations = {
   en: {
     home: "Home",
@@ -34,6 +36,7 @@ export const translations = {
     matchOpponent: "Opponent",
     matchScore: "Result",
     matchScorers: "Scorers",
+    Sponsors: "Sponsors",
     
     upcomingMatchesList: [
       {
@@ -151,6 +154,7 @@ export const translations = {
     matchScore: "Eredmény",
     matchScorers: "Gólszerzők",
     matchResultsTitle: "Eredmények",
+    Sponsors: "Szponzoraink",
 
     upcomingMatchesList: [
       {
