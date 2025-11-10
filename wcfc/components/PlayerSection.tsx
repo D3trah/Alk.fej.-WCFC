@@ -30,7 +30,7 @@ export default function PlayersSection() {
   const [selectedPlayer, setSelectedPlayer] = useState<Player | null>(null);
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  // Slide-ok 4-4 játékos
+  // Slide
   const slides: Player[][] = [];
   for (let i = 0; i < players.length; i += 4) {
     const slice = players.slice(i, i + 4);
@@ -38,10 +38,14 @@ export default function PlayersSection() {
     slides.push(slice);
   }
 
-  const handleDotClick = (index: number) => setCurrentSlide(index);
+  // Carousel
+  const prevSlide = () =>
+    setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
+  const nextSlide = () =>
+    setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
 
   return (
-    <section className="mt-10 relative w-full flex flex-col items-center">
+    <section className="mt-10 relative w-full flex flex-col items-center bg-white dark:bg-black text-black dark:text-white">
       <h2 className="text-3xl font-bold text-center mb-6 transition-colors duration-500">
         {t("playersTitle")}
       </h2>
@@ -59,7 +63,7 @@ export default function PlayersSection() {
                   <div
                     key={j}
                     onClick={() => setSelectedPlayer(p)}
-                    className="w-1/4 rounded-2xl bg-white dark:bg-gray-800 shadow-lg transform hover:scale-105 transition-transform transition-colors duration-500 cursor-pointer"
+                    className="w-1/4 rounded-2xl bg-white dark:bg-gray-900 shadow-lg transform hover:scale-105 transition-transform transition-colors duration-500 cursor-pointer"
                   >
                     <div className="relative w-full h-48 sm:h-56 md:h-64 rounded-t-2xl overflow-hidden">
                       <Image src={p.image} alt={p.name} fill className="object-cover" />
@@ -71,25 +75,31 @@ export default function PlayersSection() {
                     </div>
                   </div>
                 ) : (
-                  <div key={j} className="w-1/4"></div> 
+                  <div key={j} className="w-1/4"></div>
                 )
               )}
             </div>
           ))}
         </div>
+
+        {/*balra/jobbra gombok */}
+        <button
+          onClick={prevSlide}
+          className="absolute left-2 top-1/2 -translate-y-1/2 bg-green-500 text-white p-2 rounded-full shadow-lg hover:bg-green-600 transition-colors"
+        >
+          ‹
+        </button>
+        <button
+          onClick={nextSlide}
+          className="absolute right-2 top-1/2 -translate-y-1/2 bg-green-500 text-white p-2 rounded-full shadow-lg hover:bg-green-600 transition-colors"
+        >
+          ›
+        </button>
       </div>
 
-      {/* Dots */}
-      <div className="flex gap-3 mt-4">
-        {Array.from({ length: slides.length }, (_, i) => (
-          <button
-            key={i}
-            className={`w-3 h-3 rounded-full transition-colors duration-500 ${
-              i === currentSlide ? "bg-green-500" : "bg-gray-400 dark:bg-gray-600"
-            }`}
-            onClick={() => handleDotClick(i)}
-          />
-        ))}
+      {/* Dots*/}
+      <div className="flex gap-3 mt-4 justify-center">
+        <button className="w-3 h-3 rounded-full bg-green-500 transition-transform duration-300 hover:scale-110" />
       </div>
 
       {/* Overlay ablak */}
@@ -100,7 +110,7 @@ export default function PlayersSection() {
         >
           <div
             onClick={(e) => e.stopPropagation()}
-            className="bg-white dark:bg-gray-900 rounded-2xl p-10 w-[500px] sm:w-[600px] md:w-[700px] shadow-2xl text-center transition-colors duration-500"
+            className="rounded-2xl p-10 w-[500px] sm:w-[600px] md:w-[700px] shadow-2xl text-center bg-white dark:bg-gray-900 text-black dark:text-white transition-colors duration-500"
           >
             <div className="relative w-60 h-60 mx-auto mb-6">
               <Image
@@ -117,9 +127,7 @@ export default function PlayersSection() {
 
             <div className="text-left space-y-3 mx-auto max-w-md transition-colors duration-500">
               <p className="text-lg">
-                <span className="font-semibold text-green-700 dark:text-green-400">
-                  {t("position")}:
-                </span>{" "}
+                <span className="font-semibold text-green-700 dark:text-green-400">{t("position")}:</span>{" "}
                 {translations[language].players[selectedPlayer.name].position}
               </p>
               <p className="text-lg leading-relaxed">
