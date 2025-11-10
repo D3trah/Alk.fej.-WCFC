@@ -22,15 +22,8 @@ export default function UpcomingMatchesSection() {
   const themeContext = useContext(ThemeContext);
   const theme = themeContext?.theme || "light";
 
-  // bg és text színek theme szerint
-  const sectionBg = theme === "dark" 
-    ? "bg-gradient-to-b from-black via-[#0a0a0a] to-[#001a00] text-white"
-    : "bg-gradient-to-b from-white via-gray-100 to-gray-200 text-black";
-
-  const cardBg = theme === "dark" ? "bg-[#0f0f0f] border-green-900/40 text-white" : "bg-white border-gray-300 text-black";
-
   return (
-    <section className={`relative py-16 px-8 ${sectionBg}`}>
+    <section className={`relative py-16 px-8 ${theme === "dark" ? "bg-black text-white" : "bg-white text-black"}`}>
       <h2 className="text-4xl font-extrabold mb-12 text-center text-green-400 uppercase">
         {t("upcomingMatches")}
       </h2>
@@ -42,7 +35,8 @@ export default function UpcomingMatchesSection() {
             <div
               key={index}
               onClick={() => setSelectedMatch(match as (typeof matches)[0])}
-              className={`relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-green-600/40 transition-all duration-500 cursor-pointer ${cardBg}`}
+
+              className={`relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-green-600/40 transition-all duration-500 cursor-pointer ${theme === "dark" ? "bg-gray-900 text-white border-gray-700" : "bg-white text-black border-gray-300"}`}
             >
               <Image
                 src={img}
@@ -55,8 +49,8 @@ export default function UpcomingMatchesSection() {
                 <h3 className="text-2xl font-bold text-green-400 group-hover:text-green-300 transition-all">
                   WCFC vs {match.opponent}
                 </h3>
-                <p className={theme === "dark" ? "text-gray-300 mt-2" : "text-gray-700 mt-2"}>{match.date}</p>
-                <p className={theme === "dark" ? "text-gray-400" : "text-gray-600"}>{match.location}</p>
+                <p className="mt-2">{match.date}</p>
+                <p>{match.location}</p>
               </div>
             </div>
           );
@@ -70,7 +64,7 @@ export default function UpcomingMatchesSection() {
         >
           <div
             onClick={(e) => e.stopPropagation()}
-            className={`rounded-2xl p-10 max-w-lg w-full text-center border ${theme === "dark" ? "bg-[#111] border-green-700/50 text-white" : "bg-white border-gray-300 text-black"}`}
+            className={`rounded-2xl p-10 max-w-lg w-full text-center border ${theme === "dark" ? "bg-gray-900 text-white border-gray-700" : "bg-white text-black border-gray-300"}`}
           >
             <Image
               src={imageMap[selectedMatch.opponent] || "/default.jpg"}
@@ -82,9 +76,9 @@ export default function UpcomingMatchesSection() {
             <h3 className="text-3xl font-bold text-green-400 mb-2">
               WCFC vs {selectedMatch.opponent}
             </h3>
-            <p className={theme === "dark" ? "text-gray-300 mb-1" : "text-gray-700 mb-1"}>{selectedMatch.date}</p>
-            <p className={theme === "dark" ? "text-gray-400 mb-4" : "text-gray-600 mb-4"}>{selectedMatch.location}</p>
-            <p className={theme === "dark" ? "text-gray-200" : "text-gray-800"}>{selectedMatch.description}</p>
+            <p className="mb-1">{selectedMatch.date}</p>
+            <p className="mb-4">{selectedMatch.location}</p>
+            <p>{selectedMatch.description}</p>
           </div>
         </div>
       )}
