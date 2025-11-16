@@ -55,7 +55,7 @@ export default function MerchPage() {
       id: 3,
       nameKey: "shortsTraining",
       price: 8990,
-      image: "/s1.png",
+      image: "/s2.jpg",
       sizes: ["S", "M", "L", "XL", "XXL"],
       category: "shorts"
     },
@@ -63,7 +63,7 @@ export default function MerchPage() {
       id: 4,
       nameKey: "shortsMatch",
       price: 9990,
-      image: "/s2.jpg",
+      image: "/s1.png",
       sizes: ["S", "M", "L", "XL", "XXL"],
       category: "shorts"
     },
