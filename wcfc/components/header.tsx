@@ -47,13 +47,6 @@ export function Header() {
             </div>
           )}
 
-          <Link href="/merch">
-            <Button variant="ghost">
-              <ShoppingBag className="h-4 w-4 mr-2" />
-              {t("merch")}
-            </Button>
-          </Link>
-
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="outline" size="icon">
@@ -69,6 +62,13 @@ export function Header() {
           <Button variant="outline" size="icon" onClick={toggleTheme}>
             {theme === "light" ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
           </Button>
+
+          <Link href="/merch">
+            <Button variant="ghost">
+              <ShoppingBag className="h-4 w-4 mr-2" />
+              {t("merch")}
+            </Button>
+          </Link>
         </nav>
       </div>
     </header>
