@@ -3,7 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Moon, Sun, Languages, LogOut } from "lucide-react"
+import { Moon, Sun, Languages, LogOut, ShoppingBag } from "lucide-react"
 import { useTheme } from "@/contexts/theme-provider"
 import { useLanguage } from "@/contexts/language-context"
 import { useSession, signOut } from "next-auth/react"
@@ -26,6 +26,7 @@ export function Header() {
           <Link href="/">
             <Button variant="ghost">{t("home")}</Button>
           </Link>
+          
           {!session ? (
             <>
               <Link href="/login">
@@ -45,6 +46,13 @@ export function Header() {
               </Button>
             </div>
           )}
+
+          <Link href="/merch">
+            <Button variant="ghost">
+              <ShoppingBag className="h-4 w-4 mr-2" />
+              {t("merch")}
+            </Button>
+          </Link>
 
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
