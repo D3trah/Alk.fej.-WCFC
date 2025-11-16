@@ -14,6 +14,8 @@ const imageMap: Record<string, string> = {
   "Juventus": "/allianz-stadion.jpg",
 };
 
+
+
 export default function UpcomingMatchesSection() {
   const { language, t } = useLanguage();
   const matches = translations[language].upcomingMatchesList;

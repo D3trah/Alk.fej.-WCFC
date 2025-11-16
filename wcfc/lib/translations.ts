@@ -1,4 +1,5 @@
 import Sponsors from "@/components/Sponsors";
+import { Ticket } from "lucide-react";
 
 export const translations = {
   en: {
@@ -38,6 +39,8 @@ export const translations = {
     matchScorers: "Scorers",
     sponsorsTitle: "Our Sponsors",
     thankYouSupport: "Thank you for your support!",
+    tickets: "Ticket Purchase",
+    ticketsTitle: "Match Tickets",
 
     
     upcomingMatchesList: [
@@ -168,6 +171,8 @@ export const translations = {
     matchResultsTitle: "Eredmények",
     sponsorsTitle: "Szponzoraink",
     thankYouSupport: "Köszönjük támogatásukat!",
+    tickets: "Jegyvásárlás",
+    ticketsTitle: "Jegyvásárlás",
 
 
     upcomingMatchesList: [
