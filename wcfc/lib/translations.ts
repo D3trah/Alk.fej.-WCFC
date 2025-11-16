@@ -36,7 +36,9 @@ export const translations = {
     matchOpponent: "Opponent",
     matchScore: "Result",
     matchScorers: "Scorers",
-    Sponsors: "Sponsors",
+    sponsorsTitle: "Our Sponsors",
+    thankYouSupport: "Thank you for your support!",
+
     
     upcomingMatchesList: [
       {
@@ -154,7 +156,9 @@ export const translations = {
     matchScore: "Eredmény",
     matchScorers: "Gólszerzők",
     matchResultsTitle: "Eredmények",
-    Sponsors: "Szponzoraink",
+    sponsorsTitle: "Szponzoraink",
+    thankYouSupport: "Köszönjük támogatásukat!",
+
 
     upcomingMatchesList: [
       {

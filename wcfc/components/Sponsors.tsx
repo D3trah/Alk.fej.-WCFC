@@ -2,6 +2,7 @@
 
 import Image from "next/image"
 import Link from "next/link"
+import { useLanguage } from "@/contexts/language-context"
 
 type Sponsor = {
   name: string
@@ -38,12 +39,19 @@ const sponsors: Sponsor[] = [
 ]
 
 export default function Sponsors() {
+  const { t } = useLanguage()  
+
   return (
     <footer className="mt-12 bg-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="flex items-center justify-between mb-6">
-          <h3 className="text-lg font-semibold tracking-tight">Szponzoraink</h3>
-          <p className="text-sm text-muted-foreground">Köszönjük támogatásukat!</p>
+          <h3 className="text-lg font-semibold tracking-tight">
+            {t("sponsorsTitle")}
+          </h3>
+
+          <p className="text-sm text-muted-foreground">
+            {t("thankYouSupport")}
+          </p>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 items-center">

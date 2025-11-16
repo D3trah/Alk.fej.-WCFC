@@ -5,7 +5,7 @@ import "./globals.css"
 import { Providers } from "@/components/providers"
 import { Header } from "@/components/header"
 import { ThemeProvider } from "@/contexts/theme-provider";
-import Sponsors from "@/components/Sponsors"
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,7 +34,6 @@ export default function RootLayout({
         <Providers>
           <Header />
           {children}
-          <Sponsors />
         </Providers>
       </body>
     </html>

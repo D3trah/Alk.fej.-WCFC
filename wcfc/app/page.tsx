@@ -8,6 +8,7 @@ import { useLanguage } from "@/contexts/language-context"
 import PlayersSection from "@/components/PlayerSection";
 import UpcomingMatches from "@/components/UpcomingMatches";
 import SocialFooter from "@/components/SocialFooter";
+import Sponsors from "@/components/Sponsors"
 
 
 
@@ -86,10 +87,15 @@ export default function Home() {
     {/* Egyéb szekciók */}
       <UpcomingMatches />
 
+      <Sponsors>
+        
+      </Sponsors>
+
       <SocialFooter>
 
       </SocialFooter>
-      
+
+
     </main>
   )
 }
