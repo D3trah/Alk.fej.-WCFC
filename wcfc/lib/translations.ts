@@ -36,7 +36,7 @@ export const translations = {
     matchOpponent: "Opponent",
     matchScore: "Result",
     matchScorers: "Scorers",
-    Sponsors: "Sponsors",
+
     
     upcomingMatchesList: [
       {
@@ -117,6 +117,10 @@ export const translations = {
         info: "The newest member of the team and its biggest dreamer. Ever since he was a kid, his dream was to wear the WCFC jersey. He’s not the best player yet, but he brings unmatched energy and plays every match like it’s the World Cup final.",
       },
     },
+
+    Sponsors:{
+      sponsors: "Sponsors",
+    }
   },
 
   hu: {
@@ -154,7 +158,7 @@ export const translations = {
     matchScore: "Eredmény",
     matchScorers: "Gólszerzők",
     matchResultsTitle: "Eredmények",
-    Sponsors: "Szponzoraink",
+    sponsors: "Szponzoraink",
 
     upcomingMatchesList: [
       {
@@ -236,6 +240,10 @@ export const translations = {
         info: "A csapat legújabb tagja és egyben a legnagyobb álmodozó. Gyerekkora óta arról álmodott, hogy egyszer a WCFC mezét viselheti. Még nem a legjobb játékos, de lelkesedésben senki sem éri utol — minden meccset úgy él meg, mintha a világbajnoki döntő lenne.",
       },
     },
+
+    Sponsors:{
+      sponsors: "Szponzoraink",
+    }
   },
 } as const;
 
