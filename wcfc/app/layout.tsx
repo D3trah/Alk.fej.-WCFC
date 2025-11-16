@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google"
 import "./globals.css"
 import { Providers } from "@/components/providers"
 import { Header } from "@/components/header"
+import { ThemeProvider } from "@/contexts/theme-provider";
 import Sponsors from "@/components/Sponsors"
 
 const geistSans = Geist({
@@ -37,5 +38,7 @@ export default function RootLayout({
         </Providers>
       </body>
     </html>
+
+    
   )
 }
