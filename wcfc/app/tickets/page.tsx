@@ -5,7 +5,8 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/contexts/language-context"
 import Link from "next/link"
-
+import SocialFooter from "@/components/SocialFooter";
+import Sponsors from "@/components/Sponsors"
 export default function Tickets() {
   const { t } = useLanguage()
 
@@ -83,6 +84,14 @@ export default function Tickets() {
           {t("buyNow") ?? "Buy Tickets Now"}
         </Button>
       </section>
+
+      <Sponsors>
+              
+      </Sponsors>
+      
+      <SocialFooter>
+      
+      </SocialFooter>
 
     </main>
   )
