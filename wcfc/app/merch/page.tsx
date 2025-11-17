@@ -15,6 +15,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet"
+import Sponsors from "@/components/Sponsors"
 
 interface Product {
   id: number
@@ -422,6 +423,9 @@ export default function MerchPage() {
           </div>
         </div>
       </section>
+      <Sponsors>
+        
+      </Sponsors>
 
 
     </main>

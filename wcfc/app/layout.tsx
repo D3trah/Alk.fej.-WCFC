@@ -33,7 +33,6 @@ export default function RootLayout({
         <Providers>
           <Header />
           {children}
-          <Sponsors />
         </Providers>
       </body>
     </html>
