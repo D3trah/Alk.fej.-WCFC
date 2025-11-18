@@ -186,7 +186,7 @@ export const translations = {
     merch: "Áruház",
 
     // Merch fordítások
-    merchTitle: "Hivatalos WCFC Merchandise",
+    merchTitle: "Hivatalos WCFC Áruház",
     merchTagline: "Támogasd a csapatod stílusosan!",
     cart: "Kosár",
     shoppingCart: "Bevásárlókosár",
