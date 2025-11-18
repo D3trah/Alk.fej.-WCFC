@@ -3,7 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Moon, Sun, Languages, LogOut } from "lucide-react"
+import { Moon, Sun, Languages, LogOut, ShoppingBag } from "lucide-react"
 import { useTheme } from "@/contexts/theme-provider"
 import { useLanguage } from "@/contexts/language-context"
 import { useSession, signOut } from "next-auth/react"
@@ -63,6 +63,12 @@ export function Header() {
             {theme === "light" ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
           </Button>
 
+          <Link href="/merch">
+            <Button variant="ghost">
+              <ShoppingBag className="h-4 w-4 mr-2" />
+              {t("merch")}
+            </Button>
+          </Link>
           <Link href="/tickets">
             <Button variant="default">{t("tickets") ?? "Tickets"}</Button>
           </Link>

@@ -37,6 +37,35 @@ export const translations = {
     matchOpponent: "Opponent",
     matchScore: "Result",
     matchScorers: "Scorers",
+    Sponsors: "Sponsors",
+    merch: "Merch",
+
+    // Merch translations
+    merchTitle: "Official WCFC Merchandise",
+    merchTagline: "Support your team in style!",
+    cart: "Cart",
+    shoppingCart: "Shopping Cart",
+    reviewItems: "Review your items",
+    cartEmpty: "Your cart is empty",
+    size: "Size",
+    total: "Total",
+    checkout: "Checkout",
+    
+    // Product categories
+    jerseys: "Jerseys",
+    shorts: "Shorts",
+    caps: "Caps",
+    socks: "Socks",
+    
+    // Products
+    jerseyHome: "WCFC Home Jersey",
+    jerseyAway: "WCFC Away Jersey",
+    shortsTraining: "Training Shorts",
+    shortsMatch: "Match Shorts",
+    capWCFC: "WCFC Cap",
+    capBlack: "Team Cap Black",
+    socksTraining: "Training Socks",
+    socksMatch: "Match Socks",
     sponsorsTitle: "Our Sponsors",
     thankYouSupport: "Thank you for your support!",
   
@@ -168,6 +197,35 @@ export const translations = {
     matchScore: "Eredmény",
     matchScorers: "Gólszerzők",
     matchResultsTitle: "Eredmények",
+    Sponsors: "Szponzoraink",
+    merch: "Áruház",
+
+    // Merch fordítások
+    merchTitle: "Hivatalos WCFC Áruház",
+    merchTagline: "Támogasd a csapatod stílusosan!",
+    cart: "Kosár",
+    shoppingCart: "Bevásárlókosár",
+    reviewItems: "Ellenőrizd a termékeidet",
+    cartEmpty: "A kosarad üres",
+    size: "Méret",
+    total: "Összesen",
+    checkout: "Fizetés",
+    
+    // Termék kategóriák
+    jerseys: "Mezek",
+    shorts: "Nadrágok",
+    caps: "Sapkák",
+    socks: "Zoknik",
+    
+    // Termékek
+    jerseyHome: "WCFC Hazai Mez",
+    jerseyAway: "WCFC Vendég Mez",
+    shortsTraining: "Edzőnadrág",
+    shortsMatch: "Meccses Nadrág",
+    capWCFC: "WCFC Sapka",
+    capBlack: "Csapat Sapka Fekete",
+    socksTraining: "Edzős Zokni",
+    socksMatch: "Meccses Zokni",
     sponsorsTitle: "Szponzoraink",
     thankYouSupport: "Köszönjük támogatásukat!",
     tickets: "Jegyvásárlás",
