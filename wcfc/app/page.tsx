@@ -11,7 +11,6 @@ import SocialFooter from "@/components/SocialFooter";
 import Sponsors from "@/components/Sponsors"
 
 
-
 export default function Home() {
   const { t } = useLanguage()
 
@@ -85,7 +84,10 @@ export default function Home() {
       <PlayersSection />
 
     {/* Egyéb szekciók */}
+
+    <div id="upcoming">
       <UpcomingMatches />
+    </div>
 
       <Sponsors>
         

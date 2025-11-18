@@ -26,6 +26,7 @@ export function Header() {
           <Link href="/">
             <Button variant="ghost">{t("home")}</Button>
           </Link>
+
           {!session ? (
             <>
               <Link href="/login">
@@ -61,6 +62,10 @@ export function Header() {
           <Button variant="outline" size="icon" onClick={toggleTheme}>
             {theme === "light" ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
           </Button>
+
+          <Link href="/tickets">
+            <Button variant="default">{t("tickets") ?? "Tickets"}</Button>
+          </Link>
         </nav>
       </div>
     </header>

@@ -1,4 +1,5 @@
 import Sponsors from "@/components/Sponsors";
+import { Ticket } from "lucide-react";
 
 export const translations = {
   en: {
@@ -38,6 +39,7 @@ export const translations = {
     matchScorers: "Scorers",
     sponsorsTitle: "Our Sponsors",
     thankYouSupport: "Thank you for your support!",
+  
 
     
     upcomingMatchesList: [
@@ -168,6 +170,22 @@ export const translations = {
     matchResultsTitle: "Eredmények",
     sponsorsTitle: "Szponzoraink",
     thankYouSupport: "Köszönjük támogatásukat!",
+    tickets: "Jegyvásárlás",
+    ticketsTitle: "Jegyek",
+    ticketsSubtitle: "Biztosítsd a helyed a stadionban és szurkolj élőben!",
+    viewMatches: "Meccsek megtekintése",
+    pricing: "Árak",
+    ticketsPriceDesc: "Az árak a helyszín kategóriájától függően kezdődnek €10-tól.",
+    ticketsCat1: "Standard: €10",
+    ticketsCat2: "Prémium: €18",
+    ticketsCat3: "VIP: €30",
+    seasonPass: "Éves bérlet",
+    seasonPassDesc: "Spórolj pénzt az egész szezonra szóló stadionbérlettel.",
+    moreInfo: "További információ",
+    ctaTickets: "Készen állsz a jegyvásárlásra?",
+    ctaTicketsSub: "Csatlakozz a stadionban és szurkolj a WCFC-nek!",
+    buyNow: "Jegyvásárlás",
+    ticketsUpcomingDesc: "Válaszd ki a kedvenc mérkőzésed, és vásárolj jegyeket egyszerűen online.",
 
 
     upcomingMatchesList: [
