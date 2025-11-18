@@ -26,7 +26,7 @@ export function Header() {
           <Link href="/">
             <Button variant="ghost">{t("home")}</Button>
           </Link>
-          
+
           {!session ? (
             <>
               <Link href="/login">
@@ -68,6 +68,9 @@ export function Header() {
               <ShoppingBag className="h-4 w-4 mr-2" />
               {t("merch")}
             </Button>
+          </Link>
+          <Link href="/tickets">
+            <Button variant="default">{t("tickets") ?? "Tickets"}</Button>
           </Link>
         </nav>
       </div>

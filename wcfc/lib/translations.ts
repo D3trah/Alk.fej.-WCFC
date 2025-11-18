@@ -1,4 +1,5 @@
 import Sponsors from "@/components/Sponsors";
+import { Ticket } from "lucide-react";
 
 export const translations = {
   en: {
@@ -65,6 +66,10 @@ export const translations = {
     capBlack: "Team Cap Black",
     socksTraining: "Training Socks",
     socksMatch: "Match Socks",
+    sponsorsTitle: "Our Sponsors",
+    thankYouSupport: "Thank you for your support!",
+  
+
     
     upcomingMatchesList: [
       {
@@ -145,6 +150,16 @@ export const translations = {
         info: "The newest member of the team and its biggest dreamer. Ever since he was a kid, his dream was to wear the WCFC jersey. He’s not the best player yet, but he brings unmatched energy and plays every match like it’s the World Cup final.",
       },
     },
+
+    matchStats: {
+      possession: "Ball possession",
+      shots: "Shots",
+      shotsOnTarget: "Shots on target",
+      fouls: "Fouls",
+      yellowCards: "Yellow cards",
+      redCards: "Red cards",
+      corners: "Corners",
+    },
   },
 
   hu: {
@@ -211,6 +226,25 @@ export const translations = {
     capBlack: "Csapat Sapka Fekete",
     socksTraining: "Edzős Zokni",
     socksMatch: "Meccses Zokni",
+    sponsorsTitle: "Szponzoraink",
+    thankYouSupport: "Köszönjük támogatásukat!",
+    tickets: "Jegyvásárlás",
+    ticketsTitle: "Jegyek",
+    ticketsSubtitle: "Biztosítsd a helyed a stadionban és szurkolj élőben!",
+    viewMatches: "Meccsek megtekintése",
+    pricing: "Árak",
+    ticketsPriceDesc: "Az árak a helyszín kategóriájától függően kezdődnek €10-tól.",
+    ticketsCat1: "Standard: €10",
+    ticketsCat2: "Prémium: €18",
+    ticketsCat3: "VIP: €30",
+    seasonPass: "Éves bérlet",
+    seasonPassDesc: "Spórolj pénzt az egész szezonra szóló stadionbérlettel.",
+    moreInfo: "További információ",
+    ctaTickets: "Készen állsz a jegyvásárlásra?",
+    ctaTicketsSub: "Csatlakozz a stadionban és szurkolj a WCFC-nek!",
+    buyNow: "Jegyvásárlás",
+    ticketsUpcomingDesc: "Válaszd ki a kedvenc mérkőzésed, és vásárolj jegyeket egyszerűen online.",
+
 
     upcomingMatchesList: [
       {
@@ -291,6 +325,16 @@ export const translations = {
         position: "Cserejátékos",
         info: "A csapat legújabb tagja és egyben a legnagyobb álmodozó. Gyerekkora óta arról álmodott, hogy egyszer a WCFC mezét viselheti. Még nem a legjobb játékos, de lelkesedésben senki sem éri utol — minden meccset úgy él meg, mintha a világbajnoki döntő lenne.",
       },
+    },
+
+    matchStats: {
+      possession: "Labdabirtoklás",
+      shots: "Lövések",
+      shotsOnTarget: "Kapura lövések",
+      fouls: "Szabálytalanságok",
+      yellowCards: "Sárga lapok",
+      redCards: "Piros lapok",
+      corners: "Szögletek",
     },
   },
 } as const;
